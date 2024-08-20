@@ -18,6 +18,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrgStructure", "OrgStructur
 		OrgStructure\README.MD = OrgStructure\README.MD
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A25C538F-37AD-4CB9-BCD7-ED70D89923B8}"
+	ProjectSection(SolutionItems) = preProject
+		Entities\README.MD = Entities\README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E09038FB-F28A-43E3-B530-E6FAC6DFA421}"
+	ProjectSection(SolutionItems) = preProject
+		Enums\README.MD = Enums\README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
