@@ -28,9 +28,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E09038FB
 		Enums\README.MD = Enums\README.MD
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OurCompany", "OurCompany", "{4B9070EE-C602-4D41-8B72-25A3E8F06394}"
+	ProjectSection(SolutionItems) = preProject
+		Entities\OurCompany\README.MD = Entities\OurCompany\README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B9070EE-C602-4D41-8B72-25A3E8F06394} = {A25C538F-37AD-4CB9-BCD7-ED70D89923B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73110BEA-1C4A-4534-96CE-63374F97EE31}
