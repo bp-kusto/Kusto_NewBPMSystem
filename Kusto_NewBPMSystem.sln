@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCESES", "PROCESES", "{74
 		Proceses\README.md = Proceses\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrgStructure", "OrgStructure", "{6F87CADC-2087-4E70-A773-9D77A533CF7B}"
+	ProjectSection(SolutionItems) = preProject
+		OrgStructure\README.MD = OrgStructure\README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
