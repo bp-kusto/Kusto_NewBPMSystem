@@ -8,36 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PROCESES", "PROCESES", "{7477DA62-D057-4E27-B6E8-92D74AD9E989}"
-	ProjectSection(SolutionItems) = preProject
-		Proceses\README.md = Proceses\README.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrgStructure", "OrgStructure", "{6F87CADC-2087-4E70-A773-9D77A533CF7B}"
-	ProjectSection(SolutionItems) = preProject
-		OrgStructure\README.MD = OrgStructure\README.MD
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A25C538F-37AD-4CB9-BCD7-ED70D89923B8}"
-	ProjectSection(SolutionItems) = preProject
-		Entities\CashFlowsArticle.md = Entities\CashFlowsArticle.md
-		Entities\CFR.md = Entities\CFR.md
-		Entities\Department.md = Entities\Department.md
-		Entities\Nomenclature.md = Entities\Nomenclature.md
-		Entities\OurCompany.md = Entities\OurCompany.md
-		Entities\OurCompanyDirection.md = Entities\OurCompanyDirection.md
-		Entities\OurCompanyDirectionRole.md = Entities\OurCompanyDirectionRole.md
-		Entities\README.MD = Entities\README.MD
-		Entities\User.md = Entities\User.md
-		Entities\UserPosition.md = Entities\UserPosition.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E09038FB-F28A-43E3-B530-E6FAC6DFA421}"
-	ProjectSection(SolutionItems) = preProject
-		Enums\EActuality.md = Enums\EActuality.md
-		Enums\README.MD = Enums\README.MD
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusto", "Kusto\Kusto.csproj", "{5565684F-E8A7-4DB3-910C-946F2B3572A4}"
 EndProject
 Global
