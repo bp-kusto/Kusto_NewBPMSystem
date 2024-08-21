@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrgStructure", "OrgStructur
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A25C538F-37AD-4CB9-BCD7-ED70D89923B8}"
 	ProjectSection(SolutionItems) = preProject
+		Entities\CFR.md = Entities\CFR.md
 		Entities\OurCompany.md = Entities\OurCompany.md
 		Entities\OurCompanyDirection.md = Entities\OurCompanyDirection.md
 		Entities\OurCompanyDirectionRole.md = Entities\OurCompanyDirectionRole.md
