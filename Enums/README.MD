@@ -2,4 +2,4 @@
 
 # 🎲 Переліки
 
-- [🎲 Актуальність `EActuality`](./EActuality/README.MD)
+- [🎲 Актуальність `EActuality`](./EActuality.md)

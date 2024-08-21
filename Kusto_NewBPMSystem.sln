@@ -26,20 +26,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E09038FB-F28A-43E3-B530-E6FAC6DFA421}"
 	ProjectSection(SolutionItems) = preProject
+		Enums\EActuality.md = Enums\EActuality.md
 		Enums\README.MD = Enums\README.MD
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EActuality", "EActuality", "{6D34019D-05E7-4E9F-B75B-DEAA0EC51415}"
-	ProjectSection(SolutionItems) = preProject
-		Enums\EActuality\README.MD = Enums\EActuality\README.MD
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6D34019D-05E7-4E9F-B75B-DEAA0EC51415} = {E09038FB-F28A-43E3-B530-E6FAC6DFA421}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73110BEA-1C4A-4534-96CE-63374F97EE31}
