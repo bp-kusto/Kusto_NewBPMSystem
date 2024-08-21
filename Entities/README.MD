@@ -7,3 +7,4 @@
 - [📘 Напрямок нашої компанії](./OurCompanyDirection.md) `OurCompanyDirection`
 - [📘 Роль по напрямок в нашій компанії](./OurCompanyDirectionRole.md) `OurCompanyDirectionRole`
 - [📘 ЦФВ (Центр Фінансової Відповідальності)](./CFR.md) `CFR`
+- [📘 Департамент](./Department.md) `Department`
