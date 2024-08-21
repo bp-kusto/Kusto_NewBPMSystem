@@ -10,3 +10,4 @@
 - [📘 Департамент](./Department.md) `Department`
 - [📘 Стаття РГЗ (Руху Грошових Засобів)](./CashFlowsArticle.md) `CashFlowsArticle`
 - [📘 Номенклатура](./Nomenclature.md) `Nomenclature`
+- [📘 Од. виміру](./MeasureUnit.md) `MeasureUnit` ⚠
