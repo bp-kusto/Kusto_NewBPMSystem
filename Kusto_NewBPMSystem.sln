@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35103.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65173C5E-60F7-4F96-92A1-B2BFC179FAEE}"
 	ProjectSection(SolutionItems) = preProject
-		README.MD_ = README.MD_
+		README.MD = README.MD
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kusto", "Kusto\Kusto.csproj", "{5565684F-E8A7-4DB3-910C-946F2B3572A4}"
