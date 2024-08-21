@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
+    <Folder Include="Processes\A\01\Pictures\" />
   </ItemGroup>
 
 </Project>
