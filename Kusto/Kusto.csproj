@@ -12,6 +12,14 @@
     <Folder Include="Integrations\" />
     <Folder Include="Processes\A\01\Pictures\" />
     <Folder Include="Processes\A\02\Pictures\" />
+    <Folder Include="Processes\A\03\Pictures\" />
+    <Folder Include="Processes\A\04\Pictures\" />
+    <Folder Include="Processes\A\05\Pictures\" />
+    <Folder Include="Processes\A\06\Pictures\" />
+    <Folder Include="Processes\A\07\Pictures\" />
+    <Folder Include="Processes\A\08\Pictures\" />
+    <Folder Include="Processes\A\09\Pictures\" />
+    <Folder Include="Processes\A\10\Pictures\" />
   </ItemGroup>
 
 </Project>
