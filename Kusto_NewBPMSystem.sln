@@ -22,7 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A2
 	ProjectSection(SolutionItems) = preProject
 		Entities\OurCompany.md = Entities\OurCompany.md
 		Entities\OurCompanyDirection.md = Entities\OurCompanyDirection.md
+		OurCompanyDirectionRole.md = OurCompanyDirectionRole.md
 		Entities\README.MD = Entities\README.MD
+		Entities\User.md = Entities\User.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E09038FB-F28A-43E3-B530-E6FAC6DFA421}"
