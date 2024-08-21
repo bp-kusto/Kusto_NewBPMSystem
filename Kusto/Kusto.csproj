@@ -11,6 +11,7 @@
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
     <Folder Include="Processes\A\01\Pictures\" />
+    <Folder Include="Processes\A\02\Pictures\" />
   </ItemGroup>
 
 </Project>
