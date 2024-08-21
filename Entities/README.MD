@@ -1,8 +1,9 @@
 ﻿[🏠 головна](../README.MD)
 #  📘 Довідники
 
-- [📘 Користувач `User`](./User.md)
-- [📘 Посада `UserPosition`](./UserPosition.md)
-- [📘 Наша компанія `OurCompany`](./OurCompany.md)
-- [📘 Напрямок нашої компанії `OurCompanyDirection`](./OurCompanyDirection.md)
-- [📘 Роль по напрямок в нашій компанії `OurCompanyDirectionRole`](./OurCompanyDirectionRole.md)
+- [📘 Користувач](./User.md) `User`
+- [📘 Посада](./UserPosition.md) `UserPosition`
+- [📘 Наша компанія](./OurCompany.md) `OurCompany`
+- [📘 Напрямок нашої компанії](./OurCompanyDirection.md) `OurCompanyDirection`
+- [📘 Роль по напрямок в нашій компанії](./OurCompanyDirectionRole.md) `OurCompanyDirectionRole`
+- [📘 ЦФВ (Центр Фінансової Відповідальності)](./CFR.md) `CFR`
