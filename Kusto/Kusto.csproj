@@ -20,6 +20,25 @@
     <Folder Include="Processes\A\08\Pictures\" />
     <Folder Include="Processes\A\09\Pictures\" />
     <Folder Include="Processes\A\10\Pictures\" />
+    <Folder Include="Processes\B\11\Pictures\" />
+    <Folder Include="Processes\B\12\Pictures\" />
+    <Folder Include="Processes\B\13\Pictures\" />
+    <Folder Include="Processes\B\14\Pictures\" />
+    <Folder Include="Processes\B\15\Pictures\" />
+    <Folder Include="Processes\B\16\Pictures\" />
+    <Folder Include="Processes\B\17\Pictures\" />
+    <Folder Include="Processes\B\18\Pictures\" />
+    <Folder Include="Processes\B\19\Pictures\" />
+    <Folder Include="Processes\B\20\Pictures\" />
+    <Folder Include="Processes\C\21\Pictures\" />
+    <Folder Include="Processes\C\23\Pictures\" />
+    <Folder Include="Processes\C\24\Pictures\" />
+    <Folder Include="Processes\C\25\Pictures\" />
+    <Folder Include="Processes\C\26\Pictures\" />
+    <Folder Include="Processes\C\27\Pictures\" />
+    <Folder Include="Processes\C\28\Pictures\" />
+    <Folder Include="Processes\C\29\Pictures\" />
+    <Folder Include="Processes\C\30\Pictures\" />
   </ItemGroup>
 
 </Project>
