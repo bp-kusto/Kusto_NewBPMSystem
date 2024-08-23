@@ -37,4 +37,6 @@
 | `     ✏️❗` | Базис поставки </br> `BasisOfDelivery` | 🎲 Базис поставки  </br> `🔴 EDeliveryBasis` |  |  |
 | `     ✏️ ` | Примечания </br> `Rem` | Строка </br> `String` |  | Багатострічковий текст |
 | `     ✏️❗` | Культура </br> `Culture` | 📘 С/Х культура  </br> `🔴 OBJ` |  |  |
-| `     ✏️❗` | Количество [тоннa] </br> `Amount__tonne` | Дробное число  </br> `Double` | `🔧` Z10T10_OnPrCh____Amount__tonne(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____Amount__tonne(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Валюта сделки (CUR) </br> `DealCUR` | 🎲 Тип валюты❓  </br> `🔴 ECurrencyType❓` | `🔧` Z10T10_OnPrCh____DealCurrency(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Курс CUR к UAH </br> `CURtoUAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____CURtoUAH(Context context, FormViewBuilder form) |  |
