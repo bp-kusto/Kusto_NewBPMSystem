@@ -40,3 +40,8 @@
 | `     ✏️❗` | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____Amount__tonne(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Валюта сделки (CUR) </br> `DealCUR` | 🎲 Тип валюты❓  </br> `🔴 ECurrencyType❓` | `🔧` Z10T10_OnPrCh____DealCurrency(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Курс CUR к UAH </br> `CURtoUAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____CURtoUAH(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Курс USD к UAH </br> `USDtoUAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____USDtoUAH(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | НДС [%] </br> `VAT__percents` | Дробное число❓  </br> `Double❓` | `🔧` 	Z10T10_OnPrCh____VAT__percents(Context context, FormViewBuilder form) |  |
+
+
+### Поведінка при зміні полів форми
