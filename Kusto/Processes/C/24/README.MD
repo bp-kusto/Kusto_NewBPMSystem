@@ -58,6 +58,8 @@
 | `     ✏️ ` | Перевалка на 1т [UAH] </br> `TransshipmentPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TransshipmentPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Услуги элеватора (сбыт) на 1т [CUR] </br> `ElevatorServicesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️ ` | Услуги элеватора (сбыт) на 1т [UAH] </br> `ElevatorServicesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Сопутствующие расходы на 1т [CUR] </br> `AssociatedExpensesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__CUR</br>(Context context, FormViewBuilder form)	 |  |
+| `     ✏️ ` | Сопутствующие расходы на 1т [UAH] </br> `AssociatedExpensesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 
 
 #### Поведінка при зміні полів форми Z10T10
