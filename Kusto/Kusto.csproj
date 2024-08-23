@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Processes\C\24\Pictures\**" />
+    <EmbeddedResource Remove="Processes\C\24\Pictures\**" />
+    <None Remove="Processes\C\24\Pictures\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
     <Folder Include="Processes\A\01\Pictures\" />
@@ -33,7 +39,6 @@
     <Folder Include="Processes\C\21\Pictures\" />
     <Folder Include="Processes\C\22\Pictures\" />
     <Folder Include="Processes\C\23\Pictures\" />
-    <Folder Include="Processes\C\24\Pictures\" />
     <Folder Include="Processes\C\25\Pictures\" />
     <Folder Include="Processes\C\26\Pictures\" />
     <Folder Include="Processes\C\27\Pictures\" />
