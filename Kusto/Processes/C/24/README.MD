@@ -52,6 +52,12 @@
 | `     ✏️ ` | Себестоимость EXW на элеваторе на 1т [UAH] </br> `CostOfEXWatTheElevator__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____CostOfEXWatTheElevator__UAH</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Расчетная стоимость логистики на 1т [CUR] </br> `EstimatedCostOfLogistics__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____EstimatedCostOfLogistics__CUR</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️ ` | Расчетная стоимость логистики на 1т [UAH] </br> `EstimatedCostOfLogistics__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____EstimatedCostOfLogistics__UAH</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Налоги на 1т [CUR] </br> `TaxPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TaxPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️ ` | Налоги на 1т [UAH] </br> `TaxPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TaxPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Перевалка на 1т [CUR] </br> `TransshipmentPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TransshipmentPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️ ` | Перевалка на 1т [UAH] </br> `TransshipmentPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TransshipmentPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | Услуги элеватора (сбыт) на 1т [CUR] </br> `ElevatorServicesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️ ` | Услуги элеватора (сбыт) на 1т [UAH] </br> `ElevatorServicesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 
 
 #### Поведінка при зміні полів форми Z10T10
