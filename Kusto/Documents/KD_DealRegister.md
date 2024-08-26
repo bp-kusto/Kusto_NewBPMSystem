@@ -2,6 +2,17 @@
 
 # 📕 Реєстр угоди `KD_DealRegister`
 
+# Використані типи даних
+- [📘 Вложение](../../../Entities/Attachment.md) `Attachment` ⚠️
+- [📘 Контрагент](../Entities/Contractor.md) `Contractor` ⚠️
+- [📘 С/Х культура](../Entities/KO_AgriCulture.md) `KO_AgriCulture` ⚠️
+- [📘 Способ доставки](../Entities/KO_DeliveryMethod.md) `KO_DeliveryMethod` ⚠️
+- [📘 Пользователь](../Entities/User.md) `User` ⚠️
+- [🎲 Тип валюты](../Enums/CurrencyType.md) `CurrencyType` ⚠️
+- [🎲 Базис поставки](../Enums/DeliveryBasis.md) `DeliveryBasis` ⚠️
+- [🎲 Статус документу](../Enums/EDocStatus.md) `EDocStatus` ⚠️
+- [🎲 Наличие НДС](../Enums/KE_PresenceOfVAT.md) `KE_PresenceOfVAT` ⚠️
+
 ## Структура документу
 
 | Пошук | Властивість </br> `Property` | Тип даних </br> `Data type` | Примітки |
