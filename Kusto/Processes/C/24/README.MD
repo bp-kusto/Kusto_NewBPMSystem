@@ -8,6 +8,18 @@
 - [📥 Шаблон для генерації документу процесу](./ForDownload/DocTemplate/)
 - [📥 Шаблон для генерації HTML відображення даних процесу](./ForDownload/HtmlFormTemplate/)
 
+## Типи даних, що використовуються в процесі
+- [📕 Реєстр угоди](../../../Documents/KD_DealRegister.md) `KD_DealRegister`
+- [📘 Вложение](../../../Entities/Attachment.md) `Attachment`
+- [📘 Контрагент](../../../Entities/Contractor.md) `Contractor`
+- [📘 С/Х культура](../../../Entities/KO_AgriCulture.md) `KO_AgriCulture`
+- [📘 Способ доставки](../../../Entities/KO_DeliveryMethod.md) `KO_DeliveryMethod`
+- [📘 Пользователь](../../../Entities/User.md) `User`
+- [🎲 Тип валюты](../../../Enums/CurrencyType.md) `CurrencyType`
+- [🎲 Базис поставки](../../../Enums/DeliveryBasis.md) `DeliveryBasis`
+- [🎲 Статус документу](../../../Enums/EDocStatus.md) `EDocStatus`
+- [🎲 Наличие НДС](../../../Enums/KE_PresenceOfVAT.md) `KE_PresenceOfVAT`
+
 ## Короткий опис процесу
 
 Процес призначений для створення і погодження документу `Реєстр угоди`, що пізніше буде використовуватись як підстава до договору продажам.
@@ -177,14 +189,3 @@
 
 ![Z10T10_A10__OK • Согласование / OK](./Images/Forms/Z30T10__Acq__OK.png)
 
-# Типи даних, що використовуються в процесі
-- [📕 Реєстр угоди](../../../Documents/KD_DealRegister.md) `KD_DealRegister`
-- [📘 Вложение](../../../Entities/Attachment.md) `Attachment`
-- [📘 Контрагент](../../../Entities/Contractor.md) `Contractor`
-- [📘 С/Х культура](../../../Entities/KO_AgriCulture.md) `KO_AgriCulture`
-- [📘 Способ доставки](../../../Entities/KO_DeliveryMethod.md) `KO_DeliveryMethod`
-- [📘 Пользователь](../../../Entities/User.md) `User`
-- [🎲 Тип валюты](../../../Enums/CurrencyType.md) `CurrencyType`
-- [🎲 Базис поставки](../../../Enums/DeliveryBasis.md) `DeliveryBasis`
-- [🎲 Статус документу](../../../Enums/EDocStatus.md) `EDocStatus`
-- [🎲 Наличие НДС](../../../Enums/KE_PresenceOfVAT.md) `KE_PresenceOfVAT`
