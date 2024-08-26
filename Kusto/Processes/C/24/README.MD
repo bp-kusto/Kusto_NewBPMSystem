@@ -60,6 +60,18 @@
 | `     ✏️ ` | Услуги элеватора (сбыт) на 1т [UAH] </br> `ElevatorServicesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Сопутствующие расходы на 1т [CUR] </br> `AssociatedExpensesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__CUR</br>(Context context, FormViewBuilder form)	 |  |
 | `     ✏️ ` | Сопутствующие расходы на 1т [UAH] </br> `AssociatedExpensesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
+| `  👁️    ` | Маржа на 1т [CUR] </br> `MarginPer1t__CUR` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Маржа на 1т [UAH] </br> `MarginPer1t__UAH` | Дробное число❓  </br> `Double❓` |  |  |
+| `     ✏️ ` | Постоянные расходы на 1т [CUR] </br> `ConstantCostsPer1t__CUR` | Дробное число❓  </br> `Double❓` | Z10T10_OnPrCh____ConstantCostsPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️ ` | Постоянные расходы на 1т [UAH] </br> `ConstantCostsPer1t__UAH` | Дробное число❓  </br> `Double❓` | Z10T10_OnPrCh____ConstantCostsPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
+| `  👁️    ` | Полная себестоимость на 1т. [CUR] </br> `FullCostsPer1t__CUR` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Полная себестоимость на 1т. [UAH] </br> `FullCostsPer1t__UAH` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Расчетная чистая прибыль на 1т [CUR] </br> `EstimatedNetProfitPer1t__CUR` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Расчетная чистая прибыль на 1т [UAH] </br> `EstimatedNetProfitPer1t__UAH` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Расчетная чистая прибыль по сделке [UAH] </br> `EstimatedNetProfit__UAH` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Расчетная чистая прибыль по сделке [USD] </br> `EstimatedNetProfit__USD` | Дробное число❓  </br> `Double❓` |  |  |
+| `  👁️    ` | Total CUR </br> `LabelOfTotalCUR` | Строка </br> `String` |  |  |
+| `  👁️    ` | DocAsHtml </br> `DocAsHtml` | HTML разметка  </br> `HtmlString` |  |  |
 
 
 #### Поведінка при зміні полів форми Z10T10
