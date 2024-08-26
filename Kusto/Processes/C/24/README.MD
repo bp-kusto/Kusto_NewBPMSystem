@@ -127,6 +127,75 @@
 
 #### Поведінка при зміні полів форми Z10T10
 
+Детальний опис розрахунків і того як змінюється видимість та обов'язковість полів на даній формі описаний в коді процесу, проте основна логіка відбувається в двох методах:
+
+***Методі перерахунку значень на формі***:
+```cs
+        private void Z10T10_Recalculate(Context context, EleWise.ELMA.Model.Views.FormViewBuilder form)
+        {
+            Double? variableCostPer1t__CUR = context.CostOfEXWatTheElevator__CUR
+                + context.EstimatedCostOfLogistics__CUR
+                + context.TaxPer1t__CUR
+                + context.TransshipmentPer1t__CUR
+                + context.ElevatorServicesPer1t__CUR
+                + context.AssociatedExpensesPer1t__CUR;
+            //Double? SellingPricePer1tonWithoutVAT__CUR = context.SellingPricePer1ton__CUR - (context.VAT__percents * context.SellingPricePer1ton__CUR / 100.00);
+            Double? SellingPricePer1tonWithoutVAT__CUR = context.SellingPricePer1ton__CUR - context.VAT__percents == 0.00 ? 0.00 : (context.SellingPricePer1ton__CUR/(1+context.VAT__percents/100));
+            context.MarginPer1t__CUR = SellingPricePer1tonWithoutVAT__CUR - variableCostPer1t__CUR;
+            context.FullCostsPer1t__CUR = context.ConstantCostsPer1t__CUR + variableCostPer1t__CUR;
+            context.EstimatedNetProfitPer1t__CUR = context.MarginPer1t__CUR - context.ConstantCostsPer1t__CUR;
+            context.EstimatedNetProfit__CUR = context.EstimatedNetProfitPer1t__CUR * context.Amount__tonne;
+            //
+            Double? CURtoUAH = context.CURtoUAH;
+            context.SellingPricePer1ton__UAH = context.SellingPricePer1ton__CUR * CURtoUAH;
+            context.CostOfEXWatTheElevator__UAH = context.CostOfEXWatTheElevator__CUR * CURtoUAH;
+            context.EstimatedCostOfLogistics__UAH = context.EstimatedCostOfLogistics__CUR * CURtoUAH;
+            context.TaxPer1t__UAH = context.TaxPer1t__CUR * CURtoUAH;
+            context.TransshipmentPer1t__UAH = context.TransshipmentPer1t__CUR * CURtoUAH;
+            context.ElevatorServicesPer1t__UAH = context.ElevatorServicesPer1t__CUR * CURtoUAH;
+            context.AssociatedExpensesPer1t__UAH = context.AssociatedExpensesPer1t__CUR * CURtoUAH;
+            context.ConstantCostsPer1t__UAH = context.ConstantCostsPer1t__CUR * CURtoUAH;
+            context.FullCostsPer1t__UAH = context.FullCostsPer1t__CUR * CURtoUAH;
+            context.MarginPer1t__UAH = context.MarginPer1t__CUR * context.CURtoUAH;
+            context.EstimatedNetProfitPer1t__UAH = context.EstimatedNetProfitPer1t__CUR * CURtoUAH;
+            context.EstimatedNetProfit__UAH = context.EstimatedNetProfit__CUR * CURtoUAH;
+            context.EstimatedNetProfit__USD = context.DealCUR == CurrencyType.USD ? context.EstimatedNetProfit__CUR
+                : context.EstimatedNetProfit__UAH / context.USDtoUAH;
+        }
+```
+
+де `context` - екземпляр класу самого процесу, що містить всі змінні, що використовуються під час перебігу процесу
+
+Та ***методі оновлення налаштувань полів форми***:
+
+```cs
+        private void Z10T10_UpdatePropsSettins(Context context, EleWise.ELMA.Model.Views.FormViewBuilder form)
+        {
+            Boolean currencyIsUAH = context.DealCUR == CurrencyType.UAH;
+            Boolean currencyIsUSD = context.DealCUR == CurrencyType.USD;
+            //
+            form.For(p => p.CURtoUAH).ReadOnly(currencyIsUAH);            
+            form.For(p => p.USDtoUAH).Visible(!currencyIsUSD);
+            //
+            form.For(p => p.SellingPricePer1ton__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.CostOfEXWatTheElevator__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.EstimatedCostOfLogistics__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.TaxPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.TransshipmentPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.ElevatorServicesPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.AssociatedExpensesPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.ConstantCostsPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.MarginPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.EstimatedNetProfitPer1t__UAH).Visible(!currencyIsUAH);
+            form.For(p => p.EstimatedNetProfit__CUR).Visible(!currencyIsUSD && !currencyIsUAH);
+        }
+```
+
+Тут, звертаючись до необхідного поля і одного з його методів:
+ - `ReadOnly` (тільки для читання)
+ - `Visible` (видимий)
+ - і ще можливо `Required` (обов'язковий)
+вказуємо так чи ні для налаштування необхідної поведінки поля.
 
 ## Форма `[Z10T10_A10__OK] На согласование`
 
