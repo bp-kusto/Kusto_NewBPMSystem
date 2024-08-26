@@ -1,0 +1,1 @@
+﻿[🎲 Наличие НДС](../../../Enums/User.md) `KE_PresenceOfVAT` ⚠️

@@ -1,0 +1,1 @@
+﻿[📘 Способ доставки](../../../Entities/User.md) `KO_DeliveryMethod` ⚠️

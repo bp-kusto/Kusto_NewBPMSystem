@@ -5,14 +5,14 @@
 ## Структура документу
 
 | Пошук | Властивість </br> `Property` | Тип даних </br> `Data type` | Примітки |
-| :---: | --- | --- | --- |
+| --- | ---  ` | ---  ` | --- |
 | ✔️ | Статус документа </br> `DocStatus` | 🎲 Статус документу </br> `🎲 EDocStatus` |  |
-| ✔️ | № реестра </br> `RegNumber`| Целое число </br> `Int64`|  |
-| ✔️ | Дата реестра </br> `RegDate`| Дата / время </br> `DateTime`|  |
-| ✔️ | Инициатор реестра </br> `RegInitiator`| 📘 Пользователь </br> `📘 User`|  |
+| ✔️ | № реестра </br> `RegNumber` | Целое число </br> `Int64` |  |
+| ✔️ | Дата реестра </br> `RegDate` | Дата / время </br> `DateTime` |  |
+| ✔️ | Инициатор реестра </br> `RegInitiator` | 📘 Пользователь </br> `📘 User` |  |
 |  | Примечания </br> `Rem` | Строка </br> `String` |  |
-|  | Вложения (к примечаниям) </br> `RemAttachments`| Список<📘 Вложение> </br> `List<📘 Attachment> `|  |
-| ✔️ | Контрагент </br> `Contractor` | 📘 Контрагент </br> `📘 Contractor ` |  |
+|  | Вложения (к примечаниям) </br> `RemAttachments` | Список<📘 Вложение> </br> `List<📘 Attachment> `|  |
+| ✔️ | Контрагент </br> `Contractor` | 📘 Контрагент </br> `📘 Contractor` |  |
 | ✔️ | Культура </br> `Culture` | 📘 С/Х культура </br> `📘 KO_AgriCulture` |  |
 | ✔️ | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓ </br> `Double❓` |  |
 |  | Форма оплаты </br> `PaymentForm` | Строка </br> `String` |  |
@@ -27,7 +27,7 @@
 |  | Базис поставки </br> `BasisOfDelivery` | 🎲 Базис поставки❓ </br> `🎲 DeliveryBasis❓` |  |
 |  | НДС [%] </br> `VAT__percents` | Дробное число❓ </br> `Double❓` |  |
 |  | Себестоимость EXW на элеваторе за 1т </br> `CostOfEXWatTheElevator__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
-|  | Валюта сделки (CUR) </br> `DealCUR` | Тип валюты (Перечисление)❓ </br> `🎲` |  |
+|  | Валюта сделки (CUR) </br> `DealCUR` | 🎲 Тип валюты❓ </br> `🎲 CurrencyType` |  |
 |  | Расчетная стоимость логистики за 1т </br> `EstimatedCostOfLogistics__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
 |  | Цена реализации за 1т </br> `SellingPricePer1ton__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
 |  | Курс CUR к UAH </br> `CURtoUAH` | Дробное число❓ </br> `Double❓` |  |
@@ -60,3 +60,4 @@
 |  | Расчетная чистая прибыль по сделке [CUR] </br> `EstimatedNetProfit__CUR` | Дробное число❓ </br> `Double❓` |  |
 |  | Расчетная чистая прибыль по сделке [UAH] </br> `EstimatedNetProfit__UAH` | Дробное число❓ </br> `Double❓` |  |
 |  | Расчетная чистая прибыль по сделке [USD] </br> `EstimatedNetProfit__USD` | Дробное число❓ </br> `Double❓` |  |
+
