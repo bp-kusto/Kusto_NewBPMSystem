@@ -11,13 +11,13 @@
 | ✔️ | Дата реестра </br> `RegDate` | Дата / время </br> `DateTime` |  |
 | ✔️ | Инициатор реестра </br> `RegInitiator` | [📘 Пользователь](../Entities/User.md) </br> `📘 User` |  |
 |  | Примечания </br> `Rem` | Строка </br> `String` |  |
-|  | Вложения (к примечаниям) </br> `RemAttachments` | Список<[📘 Вложение](../Entities/Attachment.md)> </br> `List<📘 Attachment> `|  |
+|  | Вложения (к примечаниям) </br> `RemAttachments` | Колекція<[📘 Вкладення](../Entities/Attachment.md)> </br> `ICollection<📘 Attachment> `|  |
 | ✔️ | Контрагент </br> `Contractor` | [📘 Контрагент](../Entities/Contractor.md) </br> `📘 Contractor` |  |
 | ✔️ | Культура </br> `Culture` | [📘 С/Х культура](../Entities/KO_AgriCulture.md) </br> `📘 KO_AgriCulture` |  |
 | ✔️ | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓ </br> `Double❓` |  |
 |  | Форма оплаты </br> `PaymentForm` | Строка </br> `String` |  |
 |  | Толеранс </br> `Tolerans` | Строка </br> `String` |  |
-|  | Качество (файл) </br> `Quality` | [📘 Вложение](../Entities/Attachment.md) </br> `📘 Attachment` |  |
+|  | Качество (файл) </br> `Quality` | [📘 Вкладення](../Entities/Attachment.md) </br> `📘 Attachment` |  |
 |  | Пункт / склад отгрузки </br> `PointOfShipping` | Строка </br> `String` |  |
 |  | Пункт назначения </br> `PointOfDestination` | Строка </br> `String` |  |
 |  | Срок поставки </br> `DeliveryDate` | Дата / время❓ </br> `DateTime❓` |  |
