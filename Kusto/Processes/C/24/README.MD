@@ -123,4 +123,4 @@
 
 ## Форма `[Z20T10] Согласование`
 
-![Z10T10_A10__OK • На согласование](./Images/Forms/Z20T10__Approvement.png)
+![Z10T10_A10__OK • На согласование](./Images/Forms/Z20T10__Appr.png)
