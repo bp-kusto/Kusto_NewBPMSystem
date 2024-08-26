@@ -1,0 +1,431 @@
+<table style="border-collapse:collapse" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td colspan="6" style="width:456.45pt; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; font-size:14pt">
+					<span style="font-weight:bold">Реестр сделки №{$RegNumber} от {$RegDate} c </span>
+					<br>
+						<span style="font-weight:bold">{$Contractor}</span>
+				</p>
+				<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; font-size:11pt">
+					<span style="color:#bfbfbf; -aw-import:ignore">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Контрагент</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:12pt">
+					<span style="font-weight:bold">{$Contractor}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Культура:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:12pt">
+					<span style="font-weight:bold">{$Culture}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Пункт назначения:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">{$PointOfDestination}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Пункт / склад отгрузки:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$PointOfShipping}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Способ доставки:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">{$DeliveryMethod}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Количество:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">{$Amount__Tonne}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Период поставки:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">{$DeliveryDate}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Толеранс:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$Tolerans}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Базис поставки:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">{$BasisOfDelivery}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Качество:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$Quality}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="width:456.45pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:5pt">
+					<span style="-aw-import:ignore">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" rowspan="2" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Валюта сделки:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span style="-aw-import:spaces">&nbsp;</span>
+					<span>{$DealCUR}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Курс валюты сделки к UAH (на момент сделки):</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$CURtoUAH}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Курс USD (на момент сделки):</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$USDtoUAH}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" style="width:222.8pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">Форма оплаты:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$PaymentForm}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:222.85pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="color:#bfbfbf">НДС:</span>
+				</p>
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+					<span>{$VAT__percents}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="width:456.45pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; font-size:11pt">
+					<span style="color:#bfbfbf; -aw-import:ignore">&nbsp;</span>
+				</p>
+				<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; font-size:11pt">
+					<span style="color:#bfbfbf">ПОКАЗАТЕЛИ</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">Цена реализации за 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$SellingPricePer1ton__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$SellingPricePer1ton__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Себестоимость EXW на элеваторе на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$CostOfEXWatTheElevator__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$CostOfEXWatTheElevator__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Расчетная стоимость логистики на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$EstimatedCostOfLogistics__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$EstimatedCostOfLogistics__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Налоги на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$TaxPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$TaxPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Перевалка на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$TransshipmentPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$TransshipmentPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Услуги элеватора (сбыт) на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$ElevatorServicesPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$ElevatorServicesPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Сопутствующие расходы на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$AssociatedExpensesPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$AssociatedExpensesPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="width:456.45pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#d9d9d9; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:5pt">
+					<span style="font-weight:bold; -aw-import:ignore">&nbsp;</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">Маржа на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$MarginPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$MarginPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span>Постоянные расходы на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$ConstantCostsPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span>{$ConstantCostsPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">Полная себестоимость на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$FullCostsPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$FullCostsPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:194.5pt; border:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border:0.5pt single">
+				<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+					<span style="font-weight:bold">Расчетная чистая прибыль на 1т</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:120.15pt; border-top:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$EstimatedNetProfitPer1t__UAH}</span>
+				</p>
+			</td>
+			<td style="width:120.2pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#f2f2f2; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:11pt">
+					<span style="font-weight:bold">{$EstimatedNetProfitPer1t__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="width:456.45pt; border-top:0.75pt solid #d9d9d9; border-right:0.75pt solid #d9d9d9; border-left:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#d9d9d9; -aw-border-left:0.5pt single; -aw-border-right:0.5pt single; -aw-border-top:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:center; font-size:12pt">
+					<span style="font-weight:bold; font-style:italic">Расчетная чистая прибыль по сделке</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:144.95pt; border-left:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.03pt; vertical-align:top; background-color:#d9d9d9; -aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:12pt">
+					<span style="font-weight:bold; font-style:italic">{$EstimatedNetProfit__USD}</span>
+				</p>
+			</td>
+			<td colspan="3" style="width:144.95pt; border-bottom:0.75pt solid #d9d9d9; padding-right:5.4pt; padding-left:5.4pt; vertical-align:top; background-color:#d9d9d9; -aw-border-bottom:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:12pt">
+					<span style="font-weight:bold; font-style:italic">{$EstimatedNetProfit__UAH}</span>
+				</p>
+			</td>
+			<td colspan="2" style="width:144.95pt; border-right:0.75pt solid #d9d9d9; border-bottom:0.75pt solid #d9d9d9; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top; background-color:#d9d9d9; -aw-border-bottom:0.5pt single; -aw-border-right:0.5pt single">
+				<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-align:right; font-size:12pt">
+					<span style="font-weight:bold; font-style:italic">{$EstimatedNetProfit__CUR}</span>
+				</p>
+			</td>
+		</tr>
+		<tr style="height:0pt">
+			<td style="width:155.75pt"></td>
+			<td style="width:49.55pt"></td>
+			<td style="width:28.3pt"></td>
+			<td style="width:77.9pt"></td>
+			<td style="width:24.75pt"></td>
+			<td style="width:131pt"></td>
+		</tr>
+	</tbody>
+</table>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:1pt">
+    <span style="-aw-import:ignore">&nbsp;</span>
+</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal">
+    <span style="color:#bfbfbf">Инициатор реестра:</span>
+</p>
+<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; line-height:normal">
+    <span style="font-weight:bold">{$RegInitiator}</span>
+</p>
+<p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; line-height:normal">
+    <span style="font-weight:bold; -aw-import:ignore">&nbsp;</span>
+</p>
+<table style="border:0.75pt solid #d9d9d9; -aw-border:0.5pt single; border-collapse:collapse" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td style="width:456.45pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+                <p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+                    <span style="color:#bfbfbf">Примечания:</span>
+                </p>
+                <p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+                    <span>{$Rem}</span>
+                </p>
+                <p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+                    <span style="color:#bfbfbf">Вложения:</span>
+                </p>
+                <p style="margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; font-size:11pt">
+                    <span>{$RemAttachments}</span>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:5pt">
+    <span style="font-weight:bold; -aw-import:ignore">&nbsp;</span>
+</p>
