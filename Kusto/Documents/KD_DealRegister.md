@@ -3,7 +3,7 @@
 # 📕 Реєстр угоди `KD_DealRegister`
 
 # Використані типи даних
-- [📘 Вложение](../../../Entities/Attachment.md) `Attachment` ⚠️
+- [📘 Вложение](../Entities/Attachment.md) `Attachment` ⚠️
 - [📘 Контрагент](../Entities/Contractor.md) `Contractor` ⚠️
 - [📘 С/Х культура](../Entities/KO_AgriCulture.md) `KO_AgriCulture` ⚠️
 - [📘 Способ доставки](../Entities/KO_DeliveryMethod.md) `KO_DeliveryMethod` ⚠️
@@ -17,32 +17,32 @@
 
 | Пошук | Властивість </br> `Property` | Тип даних </br> `Data type` | Примітки |
 | --- | --- | --- | --- |
-| ✔️ | Статус документа </br> `DocStatus` | 🎲 Статус документу </br> `🎲 EDocStatus` |  |
+| ✔️ | Статус документа </br> `DocStatus` | [🎲 Статус документу](../Enums/EDocStatus.md) </br> `🎲 EDocStatus` |  |
 | ✔️ | № реестра </br> `RegNumber` | Целое число </br> `Int64` |  |
 | ✔️ | Дата реестра </br> `RegDate` | Дата / время </br> `DateTime` |  |
-| ✔️ | Инициатор реестра </br> `RegInitiator` | 📘 Пользователь </br> `📘 User` |  |
+| ✔️ | Инициатор реестра </br> `RegInitiator` | [📘 Пользователь](../Entities/User.md) </br> `📘 User` |  |
 |  | Примечания </br> `Rem` | Строка </br> `String` |  |
-|  | Вложения (к примечаниям) </br> `RemAttachments` | Список<📘 Вложение> </br> `List<📘 Attachment> `|  |
-| ✔️ | Контрагент </br> `Contractor` | 📘 Контрагент </br> `📘 Contractor` |  |
-| ✔️ | Культура </br> `Culture` | 📘 С/Х культура </br> `📘 KO_AgriCulture` |  |
+|  | Вложения (к примечаниям) </br> `RemAttachments` | Список<[📘 Вложение](../Entities/Attachment.md)> </br> `List<📘 Attachment> `|  |
+| ✔️ | Контрагент </br> `Contractor` | [📘 Контрагент](../Entities/Contractor.md) </br> `📘 Contractor` |  |
+| ✔️ | Культура </br> `Culture` | [📘 С/Х культура](../Entities/KO_AgriCulture.md) </br> `📘 KO_AgriCulture` |  |
 | ✔️ | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓ </br> `Double❓` |  |
 |  | Форма оплаты </br> `PaymentForm` | Строка </br> `String` |  |
 |  | Толеранс </br> `Tolerans` | Строка </br> `String` |  |
-|  | Качество (файл) </br> `Quality` | 📘 Вложение </br> `📘 Attachment` |  |
+|  | Качество (файл) </br> `Quality` | [📘 Вложение](../Entities/Attachment.md) </br> `📘 Attachment` |  |
 |  | Пункт / склад отгрузки </br> `PointOfShipping` | Строка </br> `String` |  |
 |  | Пункт назначения </br> `PointOfDestination` | Строка </br> `String` |  |
 |  | Срок поставки </br> `DeliveryDate` | Дата / время❓ </br> `DateTime❓` |  |
-|  | Способ доставки </br> `DeliveryMethod` | 📘 Способ доставки </br> `📘 KO_DeliveryMethod` |  |
+|  | Способ доставки </br> `DeliveryMethod` | [📘 Способ доставки](../Entities/KO_DeliveryMethod.md) </br> `📘 KO_DeliveryMethod` |  |
 | ✔️ | Период поставки с ... </br> `DeliveryDateFrom` | Дата / время❓ </br> `DateTime❓` |  |
 | ✔️ | Период поставки по ... </br> `DeliveryDateTill` | Дата / время❓ </br> `DateTime❓` |  |
-|  | Базис поставки </br> `BasisOfDelivery` | 🎲 Базис поставки❓ </br> `🎲 DeliveryBasis❓` |  |
+|  | Базис поставки </br> `BasisOfDelivery` | [🎲 Базис поставки](../Enums/DeliveryBasis.md)❓ </br> `🎲 DeliveryBasis❓` |  |
 |  | НДС [%] </br> `VAT__percents` | Дробное число❓ </br> `Double❓` |  |
 |  | Себестоимость EXW на элеваторе за 1т </br> `CostOfEXWatTheElevator__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
-|  | Валюта сделки (CUR) </br> `DealCUR` | 🎲 Тип валюты❓ </br> `🎲 CurrencyType` |  |
+|  | Валюта сделки (CUR) </br> `DealCUR` | [🎲 Тип валюты](../Enums/CurrencyType.md)❓ </br> `🎲 CurrencyType` |  |
 |  | Расчетная стоимость логистики за 1т </br> `EstimatedCostOfLogistics__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
 |  | Цена реализации за 1т </br> `SellingPricePer1ton__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
 |  | Курс CUR к UAH </br> `CURtoUAH` | Дробное число❓ </br> `Double❓` |  |
-|  | Наличие НДС </br> `PresenceOfVAT` | 🎲 Наличие НДС❓ </br> `🎲 KE_PresenceOfVAT❓` |  |
+|  | Наличие НДС </br> `PresenceOfVAT` | [🎲 Наличие НДС](../Enums/KE_PresenceOfVAT.md)❓ </br> `🎲 KE_PresenceOfVAT❓` |  |
 |  | Курс USD к UAH </br> `USDtoUAH` | Дробное число❓ </br> `Double❓` |  |
 |  | Расчетная чистая прибыль за 1т </br> `EstimatedNetProfit__inDealCurrency` | Дробное число❓ </br> `Double❓` |  |
 |  | Цена реализации за 1т [CUR] </br> `SellingPricePer1ton__CUR` | Дробное число❓ </br> `Double❓` |  |
