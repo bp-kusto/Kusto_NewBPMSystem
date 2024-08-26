@@ -12,3 +12,8 @@
 - [📘 Стаття РГЗ (Руху Грошових Засобів)](./CashFlowsArticle.md) `CashFlowsArticle`
 - [📘 Номенклатура](./Nomenclature.md) `Nomenclature`
 - [📘 Од. виміру](./MeasureUnit.md) `MeasureUnit` ⚠
+---
+- [📘 Вложение](./Attachment.md) `Attachment` ⚠️
+- [📘 Контрагент](./Contractor.md) `Contractor` ⚠️
+- [📘 С/Х культура](./KO_AgriCulture.md) `KO_AgriCulture` ⚠️
+- [📘 Способ доставки](./KO_DeliveryMethod.md) `KO_DeliveryMethod` ⚠️
