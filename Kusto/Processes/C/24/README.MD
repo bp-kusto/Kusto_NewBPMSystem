@@ -698,9 +698,7 @@ namespace EleWise.ELMA.Model.Scripts
             return procName;
         }
 
-        /// 
- Получить объект конфигурации процесса 
-
+        /// Получить объект конфигурации процесса 
         public static KO_PC_DealReg ProcConfig (this Context context)
         {
             KO_PC_DealReg procConfig = context.ProcConfing;
@@ -728,9 +726,7 @@ namespace EleWise.ELMA.Model.Scripts
             return procConfig;
         }
 
-        /// 
- Получить дату процесса 
-
+        /// Получить дату процесса 
         public static DateTime GetProcDate (this Context context)
         {
             DateTime procDate = context.RegDate;
@@ -1087,8 +1083,7 @@ namespace EleWise.ELMA.Model.Scripts
             return binFile;
         }
 
-        /// 
- Создать пустой бинарный файл 
+        /// Создать пустой бинарный файл 
 
         ///  Название файла (без расширения) 
         public static BinaryFile CreateEmptyBinaryFile (String fileNameWithoutExtension)
@@ -1112,9 +1107,7 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public static class Ext_Folder
     {
-        /// 
- Получить или создать родительскую папку (без наследования полномочий) 
-
+        /// Получить или создать родительскую папку (без наследования полномочий) 
         public static Folder CD (String formatedDirName, params object[] args)
         {
             if (formatedDirName == null)
@@ -1123,9 +1116,7 @@ namespace EleWise.ELMA.Model.Scripts
             return EntityManager.Instance.Find (x => x.Folder == null && x.Name == dirName).OrderBy (x => x.CreationDate).FirstOrDefault () ?? PublicAPI.Docflow.Folder.CreateFolder (null, dirName, false, false);
         }
 
-        /// 
- Получить или создать родительскую папку (с наследованием полномочий) 
-
+        /// Получить или создать родительскую папку (с наследованием полномочий) 
         public static Folder Cd (String formatedDirName, params object[] args)
         {
             if (formatedDirName == null)
@@ -1134,9 +1125,7 @@ namespace EleWise.ELMA.Model.Scripts
             return EntityManager.Instance.Find (x => x.Folder == null && x.Name == dirName).OrderBy (x => x.CreationDate).FirstOrDefault () ?? PublicAPI.Docflow.Folder.CreateFolder (null, dirName, true, false);
         }
 
-        /// 
- Получить или создать дочернюю папку (без наследования полномочий) 
-
+        /// Получить или создать дочернюю папку (без наследования полномочий) 
         public static Folder CD (this Folder parentDir, String formatedDirName, params object[] args)
         {
             if (formatedDirName == null)
@@ -1147,9 +1136,7 @@ namespace EleWise.ELMA.Model.Scripts
             return EntityManager.Instance.Find (x => x.Folder.Id == parentDir.Id && x.Name == dirName).OrderBy (x => x.CreationDate).FirstOrDefault () ?? PublicAPI.Docflow.Folder.CreateFolder (parentDir, dirName, false, false);
         }
 
-        /// 
- Получить или создать дочернюю папку (с наследованием полномочий) 
-
+        /// Получить или создать дочернюю папку (с наследованием полномочий) 
         public static Folder Cd (this Folder parentDir, String formatedDirName, params object[] args)
         {
             if (formatedDirName == null)
@@ -1160,8 +1147,7 @@ namespace EleWise.ELMA.Model.Scripts
             return EntityManager.Instance.Find (x => x.Folder.Id == parentDir.Id && x.Name == dirName).OrderBy (x => x.CreationDate).FirstOrDefault () ?? PublicAPI.Docflow.Folder.CreateFolder (parentDir, dirName, true, false);
         }
 
-        /// 
- Получить набор родетельских папок + эту 
+        /// Получить набор родетельских папок + эту 
 
         ///  Папка 
         public static List GetParentFoldersAndThis (this Folder dir)
@@ -1209,8 +1195,7 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public static class Ext_Document
     {
-        /// 
- Получить все результаты согласования документа 
+        /// Получить все результаты согласования документа 
 
         public static Aux_DocApprInfo GetApprInfo (this Document doc)
         {
@@ -1239,8 +1224,7 @@ namespace EleWise.ELMA.Model.Scripts
             return apprResults;
         }
 
-        /// 
- Получить только последние результаты согласования документа 
+        /// Получить только последние результаты согласования документа 
 
         public static Aux_DocApprInfo GetApprResult (this Document doc)
         {
@@ -1295,37 +1279,17 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public class Aux_DocApprInfo
     {
-        /// 
- Документ 
+        ///  Документ 
+        public Document Doc { get; set; }
 
-        public Document Doc {
-            get;
-            set;
-        }
+        /// Дата создания последнего листа согласования по документу 
+        public DateTime? Apprlist_LastCreationDate { get; set; }
 
-        /// 
- Дата создания последнего листа согласования по документу 
+        ///  Автор создания последнего листа согласования по документу 
+        public User ApprList_LastCreationAuthor { get; set; }
 
-        public DateTime? Apprlist_LastCreationDate {
-            get;
-            set;
-        }
-
-        /// 
- Автор создания последнего листа согласования по документу 
-
-        public User ApprList_LastCreationAuthor {
-            get;
-            set;
-        }
-
-        /// 
- Результаты согласования 
-
-        public List DocApprInfoItems {
-            get;
-            set;
-        }
+        ///  Результаты согласования 
+        public List DocApprInfoItems { get; set; }
 
         public Aux_DocApprInfo (Document doc)
         {
@@ -1348,77 +1312,32 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public class Aux_DocApprInfoItem
     {
-        /// 
- Лист согласования. № 
+        /// Лист согласования. № 
+        public Int64 ApprList_No { get; set; }
 
-        public Int64 ApprList_No {
-            get;
-            set;
-        }
+        ///  Литст согласования. Дата создания 
+        public DateTime? ApprList_CreationDate { get; set; }
 
-        /// 
- Литст согласования. Дата создания 
+        ///  Инициатор согласования 
+        public User ApprList_CreationAuthor { get; set; }
 
-        public DateTime? ApprList_CreationDate {
-            get;
-            set;
-        }
+        ///  Литст согласования. Дата принятия решения 
+        public DateTime? ApprList_SolutionDate { get; set; }
 
-        /// 
- Инициатор согласования 
+        /// Литст согласования. Общий результат согласования 
+        public ApprovalStatus ApprList_ApprStatus { get; set; }
 
-        public User ApprList_CreationAuthor {
-            get;
-            set;
-        }
+        /// Исполнитель 
+        public User Executor { get; set; }
 
-        /// 
- Литст согласования. Дата принятия решения 
+        ///  Исполнитель. Решение 
+        public ApprovalStatus Executor_Solution { get; set; }
 
-        public DateTime? ApprList_SolutionDate {
-            get;
-            set;
-        }
+        /// Исполнитель. Дата принятия решениия 
+        public DateTime? Executor_SolutionDate { get; set; }
 
-        /// 
- Литст согласования. Общий результат согласования 
-
-        public ApprovalStatus ApprList_ApprStatus {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель 
-
-        public User Executor {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Решение 
-
-        public ApprovalStatus Executor_Solution {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Дата принятия решениия 
-
-        public DateTime? Executor_SolutionDate {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Комментарий 
-
-        public String Executor_Comment {
-            get;
-            set;
-        }
+        /// Исполнитель. Комментарий 
+        public String Executor_Comment { get; set; }
 
         public override String ToString ()
         {
@@ -1429,37 +1348,17 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public class DocGen_DocApprInfo
     {
-        /// 
- Документ 
+        /// Документ 
+        public String Doc { get; set; }
 
-        public String Doc {
-            get;
-            set;
-        }
+        /// Дата создания последнего листа согласования по документу 
+        public String Apprlist_LastCreationDate { get; set; }
 
-        /// 
- Дата создания последнего листа согласования по документу 
+        ///  Автор создания последнего листа соглксования по документу 
+        public String ApprList_LastCreationAuthor { get; set; }
 
-        public String Apprlist_LastCreationDate {
-            get;
-            set;
-        }
-
-        /// 
- Автор создания последнего листа соглксования по документу 
-
-        public String ApprList_LastCreationAuthor {
-            get;
-            set;
-        }
-
-        /// 
- Результаты согласования 
-
-        public List DocApprInfoItems {
-            get;
-            set;
-        }
+        /// Результаты согласования 
+        public List DocApprInfoItems { get; set; }
 
         public DocGen_DocApprInfo (Aux_DocApprInfo docApprInfo, Context context)
         {
@@ -1475,85 +1374,35 @@ namespace EleWise.ELMA.Model.Scripts
     }
     public class DocGen_DocApprInfoItem
     {
-        /// 
- Лист согласования. № 
+        /// Лист согласования. № 
+        public String ApprList_No { get; set; }
 
-        public String ApprList_No {
-            get;
-            set;
-        }
+        /// Литст согласования. Дата создания 
+        public String ApprList_CreationDate { get; set; }
 
-        /// 
- Литст согласования. Дата создания 
+        /// Инициатор согласования 
+        public String ApprList_CreationAuthor { get; set; }
 
-        public String ApprList_CreationDate {
-            get;
-            set;
-        }
+        /// Литст согласования. Дата принятия решения 
+        public String ApprList_SolutionDate { get; set; }
 
-        /// 
- Инициатор согласования 
+        /// Литст согласования. Общий результат согласования 
+        public String ApprList_ApprStatus { get; set; }
 
-        public String ApprList_CreationAuthor {
-            get;
-            set;
-        }
+        /// Исполнитель. ФИО 
+        public String Executor_FullName { get; set; }
 
-        /// 
- Литст согласования. Дата принятия решения 
+        /// Исполнитель. Должность 
+        public String Executor_Post { get; set; }
 
-        public String ApprList_SolutionDate {
-            get;
-            set;
-        }
+        ///  Исполнитель. Решение 
+        public String Executor_Solution { get; set; }
 
-        /// 
- Литст согласования. Общий результат согласования 
+        /// Исполнитель. Дата принятия решениия 
+        public string Executor_SolutionDate { get; set; }
 
-        public String ApprList_ApprStatus {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. ФИО 
-
-        public String Executor_FullName {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Должность 
-
-        public String Executor_Post {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Решение 
-
-        public String Executor_Solution {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Дата принятия решениия 
-
-        public string Executor_SolutionDate {
-            get;
-            set;
-        }
-
-        /// 
- Исполнитель. Комментарий 
-
-        public String Executor_Comment {
-            get;
-            set;
-        }
+        ///  Исполнитель. Комментарий 
+        public String Executor_Comment { get; set; }
 
         public DocGen_DocApprInfoItem (Aux_DocApprInfoItem i)
         {
@@ -1571,34 +1420,16 @@ namespace EleWise.ELMA.Model.Scripts
 
         private string ApprStatusToString (ApprovalStatus apprStatus)
         {
-            Dictionary map = new Dictionary {
-                {
-                    ApprovalStatus.None,
-                    "На согласовании"
-                },
-                {
-                    ApprovalStatus.Confirm,
-                    "Согласовано"
-                },
-                {
-                    ApprovalStatus.Unconfirm,
-                    "Не согласовано"
-                },
-                {
-                    ApprovalStatus.Pending,
-                    "В ожидании"
-                },
-                {
-                    ApprovalStatus.Terminated,
-                    "Отменено"
-                },
-                {
-                    ApprovalStatus.WasClosed,
-                    "Закрыто автором"
-                }
+            Dictionary map = new Dictionary 
+            {
+                { ApprovalStatus.None, "На согласовании" },
+                { ApprovalStatus.Confirm, "Согласовано" },
+                { ApprovalStatus.Unconfirm, "Не согласовано" },
+                { ApprovalStatus.Pending, "В ожидании" },
+                { ApprovalStatus.Terminated, "Отменено" },
+                { ApprovalStatus.WasClosed, "Закрыто автором" }
             };
-            if (map.ContainsKey (apprStatus))
-                return map [apprStatus];
+            if (map.ContainsKey (apprStatus)) return map [apprStatus];
             return "< ? >";
         }
 
