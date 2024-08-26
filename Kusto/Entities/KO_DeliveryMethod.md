@@ -1,1 +1,5 @@
-﻿[📘 Способ доставки](../../../Entities/User.md) `KO_DeliveryMethod` ⚠️
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+
+# 📘 Способ доставки] `KO_DeliveryMethod`
+
+⚠️ ***Поки що не описано***

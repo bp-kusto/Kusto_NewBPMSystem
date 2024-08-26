@@ -1,1 +1,5 @@
-﻿[📘 С/Х культура](../../../Entities/User.md) `KO_AgriCulture` ⚠️
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+
+# 📘 С/Х культура] `KO_AgriCulture`
+
+⚠️ ***Поки що не описано***
