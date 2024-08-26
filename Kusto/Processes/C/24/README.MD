@@ -82,7 +82,7 @@
 | `     ✏️❗` | Валюта сделки (CUR) </br> `DealCUR` | 🎲 Тип валюты❓  </br> `🔴 ECurrencyType❓` | `🔧` Z10T10_OnPrCh____DealCurrency</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Курс CUR к UAH </br> `CURtoUAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____CURtoUAH</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Курс USD к UAH </br> `USDtoUAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____USDtoUAH</br>(Context context, FormViewBuilder form) |  |
-| `     ✏️❗` | НДС [%] </br> `VAT__percents` | Дробное число❓  </br> `Double❓` | `🔧` 	Z10T10_OnPrCh____VAT__percents</br>(Context context, FormViewBuilder form) |  |
+| `     ✏️❗` | НДС [%] </br> `VAT__percents` | Дробное число❓  </br> `Double❓` | `🔧`  Z10T10_OnPrCh____VAT__percents</br>(Context context, FormViewBuilder form) |  |
 | `  👁️    ` | * CUR_Selected </br> `CUR_Selected` | Строка </br> `String` |  |  |
 | `  👁️    ` | * CUR_UAH </br> `CUR_UAH` | Строка </br> `String` |  |  |
 | `     ✏️❗` | Цена реализации за 1т [CUR] </br> `SellingPricePer1ton__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____SellingPricePer1ton__CUR</br>(Context context, FormViewBuilder form) |  |
@@ -97,7 +97,7 @@
 | `     ✏️ ` | Перевалка на 1т [UAH] </br> `TransshipmentPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____TransshipmentPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Услуги элеватора (сбыт) на 1т [CUR] </br> `ElevatorServicesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__CUR</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️ ` | Услуги элеватора (сбыт) на 1т [UAH] </br> `ElevatorServicesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____ElevatorServicesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
-| `     ✏️❗` | Сопутствующие расходы на 1т [CUR] </br> `AssociatedExpensesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__CUR</br>(Context context, FormViewBuilder form)	 |  |
+| `     ✏️❗` | Сопутствующие расходы на 1т [CUR] </br> `AssociatedExpensesPer1t__CUR` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__CUR</br>(Context context, FormViewBuilder form)  |  |
 | `     ✏️ ` | Сопутствующие расходы на 1т [UAH] </br> `AssociatedExpensesPer1t__UAH` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____AssociatedExpensesPer1t__UAH</br>(Context context, FormViewBuilder form) |  |
 | `  👁️    ` | Маржа на 1т [CUR] </br> `MarginPer1t__CUR` | Дробное число❓  </br> `Double❓` |  |  |
 | `  👁️    ` | Маржа на 1т [UAH] </br> `MarginPer1t__UAH` | Дробное число❓  </br> `Double❓` |  |  |
