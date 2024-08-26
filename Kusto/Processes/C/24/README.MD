@@ -4,15 +4,15 @@
 
 # Типи даних, що використовуються в процесі
 - [📕 Реєстр угоди](../../../Documents/KD_DealRegister.md) `KD_DealRegister`
-- [📘 Вложение](../../../Entities/User.md) `Attachment` ⚠️
-- [📘 Контрагент](../../../Entities/User.md) `Contractor` ⚠️
-- [📘 С/Х культура](../../../Entities/User.md) `KO_AgriCulture` ⚠️
-- [📘 Способ доставки](../../../Entities/User.md) `KO_DeliveryMethod` ⚠️
+- [📘 Вложение](../../../Entities/Attachment.md) `Attachment` ⚠️
+- [📘 Контрагент](../../../Entities/Contractor.md) `Contractor` ⚠️
+- [📘 С/Х культура](../../../Entities/KO_AgriCulture.md) `KO_AgriCulture` ⚠️
+- [📘 Способ доставки](../../../Entities/KO_DeliveryMethod.md) `KO_DeliveryMethod` ⚠️
 - [📘 Пользователь](../../../Entities/User.md) `User` ⚠️
-- [🎲 Тип валюты](../../../Enums/User.md) `CurrencyType` ⚠️
-- [🎲 Базис поставки](../../../Enums/User.md) `DeliveryBasis` ⚠️
-- [🎲 Статус документу](../../../Enums/User.md) `EDocStatus` ⚠️
-- [🎲 Наличие НДС](../../../Enums/User.md) `KE_PresenceOfVAT` ⚠️
+- [🎲 Тип валюты](../../../Enums/CurrencyType.md) `CurrencyType` ⚠️
+- [🎲 Базис поставки](../../../Enums/DeliveryBasis.md) `DeliveryBasis` ⚠️
+- [🎲 Статус документу](../../../Enums/EDocStatus.md) `EDocStatus` ⚠️
+- [🎲 Наличие НДС](../../../Enums/KE_PresenceOfVAT.md) `KE_PresenceOfVAT` ⚠️
 
 ## Матеріали для скачування
 
