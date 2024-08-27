@@ -12,7 +12,7 @@
 | [📘 С/Х культура](./KO_AgriCulture.md) </br> `KO_AgriCulture` |  |  |
 | [📘 Способ доставки](./KO_DeliveryMethod.md) </br> `KO_DeliveryMethod` |  |  |
 | [📘 Організаційно-правова форма](./LegalForm.md) </br> `LegalForm` | `🏷️ Системний`  |  |
-| [📘 Од. виміру](./MeasureUnit.md) </br> `MeasureUnit` | | ⚠️ не описано |
+| [📘 Од. виміру](./MeasureUnit.md) </br> `MeasureUnit` | | |
 | [📘 Номенклатура](./Nomenclature.md) </br> `Nomenclature`  | | |
 | [📘 Наша компанія](./OurCompany.md) </br> `OurCompany` | `🏷️ Базовий`  | |
 | [📘 Напрямок нашої компанії](./OurCompanyDirection.md) </br> `OurCompanyDirection` | `🏷️ Базовий`  | |
