@@ -19,6 +19,7 @@
 |  | 📦 НОМЕНКЛАТУРА </br> `BL_Nmc` | 📦 Номенклатура </br> `Contractor__BL_Nmc` |  |
 | ✔️ | Заключення СЕБ </br> `SES_Conclusion` | [🎲 Статус СЕБ](../Enums/EStatusOfSES.md) </br> `EStatusOfSES` |  |
 | ⚠️ | Властивість </br> `Property` | [📘 Тип](./Type.md) </br> `Type` |  |
+| ⚠️ | Властивість </br> `Property` | [🎲 Перелік](../Enums/EType.md) </br> `EType` |  |
 
 
 ### Структура блоку 📦 Номенклатура `Contractor__BL_Nmc`
