@@ -103,7 +103,7 @@
 | `     ✏️❗` | Период поставки до ... </br> `DeliveryDateTill` | Дата / время </br> `DateTime` |  |  |
 | `     ✏️❗` | Базис поставки </br> `BasisOfDelivery` | [🎲 Базис поставки](../../../Enums/DeliveryBasis.md)  </br> `DeliveryBasis` |  |  |
 | `     ✏️ ` | Примечания </br> `Rem` | Строка </br> `String` |  | Багатострічковий текст |
-| `     ✏️ ` | Вложения (к примечаниям) </br> `RemAttachments` | Колекція<[📘 Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  | Багатострічковий текст |
+| `     ✏️ ` | Вложения (к примечаниям) </br> `RemAttachments` | 🗃Колекція<[📘 Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  | Багатострічковий текст |
 | `     ✏️❗` | Культура </br> `Culture` | [📘 С/Х культура](../../../Entities/KO_AgriCulture.md) </br> `KO_AgriCulture` |  |  |
 | `     ✏️❗` | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓  </br> `Double❓` | `🔧` Z10T10_OnPrCh____Amount__tonne</br>(Context context, FormViewBuilder form) |  |
 | `     ✏️❗` | Валюта сделки (CUR) </br> `DealCUR` | [🎲 Тип валюты](../../../Enums/CurrencyType.md)❓ </br> `CurrencyType❓` | `🔧` Z10T10_OnPrCh____DealCurrency</br>(Context context, FormViewBuilder form) |  |

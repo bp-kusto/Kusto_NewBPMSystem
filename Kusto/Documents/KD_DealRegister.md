@@ -11,7 +11,7 @@
 | ✔️ | Дата реестра </br> `RegDate` | Дата / время </br> `DateTime` |  |
 | ✔️ | Инициатор реестра </br> `RegInitiator` | [📘 Пользователь](../Entities/User.md) </br> `📘 User` |  |
 |  | Примечания </br> `Rem` | Строка </br> `String` |  |
-|  | Вложения (к примечаниям) </br> `RemAttachments` | Колекція<[📘 Вкладення](../Entities/Attachment.md)> </br> `ICollection<📘 Attachment> `|  |
+|  | Вложения (к примечаниям) </br> `RemAttachments` | 🗃Колекція<[📘 Вкладення](../Entities/Attachment.md)> </br> `ICollection<📘 Attachment> `|  |
 | ✔️ | Контрагент </br> `Contractor` | [📘 Контрагент](../Entities/Contractor.md) </br> `📘 Contractor` |  |
 | ✔️ | Культура </br> `Culture` | [📘 С/Х культура](../Entities/KO_AgriCulture.md) </br> `📘 KO_AgriCulture` |  |
 | ✔️ | Количество [тоннa] </br> `Amount__tonne` | Дробное число❓ </br> `Double❓` |  |
