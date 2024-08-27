@@ -11,12 +11,12 @@
 | [📘 Департамент](./Department.md) </br> `Department` | `🏷️ Базовий`  | |
 | [📘 С/Х культура](./KO_AgriCulture.md) </br> `KO_AgriCulture` |  | ⚠️ не описано |
 | [📘 Способ доставки](./KO_DeliveryMethod.md) </br> `KO_DeliveryMethod` |  | ⚠️ не описано |
-| [📘 Організаційно-правова форма](./LegalForm.md) </br> `LegalForm` | | ⚠️ не описано |
+| [📘 Організаційно-правова форма](./LegalForm.md) </br> `LegalForm` | `🏷️ Системний`  | ⚠️ не описано |
 | [📘 Од. виміру](./MeasureUnit.md) </br> `MeasureUnit` | | ⚠️ не описано |
 | [📘 Номенклатура](./Nomenclature.md) </br> `Nomenclature`  | | |
 | [📘 Наша компанія](./OurCompany.md) </br> `OurCompany` | `🏷️ Базовий`  | |
 | [📘 Напрямок нашої компанії](./OurCompanyDirection.md) </br> `OurCompanyDirection` | `🏷️ Базовий`  | |
 | [📘 Роль по напрямку в нашій компанії](./OurCompanyDirectionRole.md) </br> `OurCompanyDirectionRole` | `🏷️ Базовий`  | |
-| [📘 Користувач](./User.md) </br> `User`  | | |
-| [📘 Посада](./UserPosition.md) </br> `UserPosition`  | | |
+| [📘 Користувач](./User.md) </br> `User`  | `🏷️ Системний`  | |
+| [📘 Посада](./UserPosition.md) </br> `UserPosition` | `🏷️ Системний`  | |
 | [📘 Екземпляр робочого процесу](./WorkflowInstance.md) </br> `WorkflowInstance` | `🏷️ Системний`  | |
