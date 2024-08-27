@@ -6,6 +6,7 @@
 - [🎲 Базис поставки](./DeliveryBasis.md) `DeliveryBasis`
 - [🎲 Актуальність](./EActuality.md) `EActuality`
 - [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) `EContractorRegistrationCountry`
+- [🎲 Статус валідації контрагента](./EContractorValidationStatus.md) `EContractorValidationStatus`
 - [🎲 Статус документу](./EDocStatus.md) `EDocStatus`
 - [🎲 Спеціальний контрагент](./ESpecialContractor.md) `ESpecialContractor`
 - [🎲 Статус СЕБ](./EStatusOfSES.md) `EStatusOfSES`
