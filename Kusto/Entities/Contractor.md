@@ -16,7 +16,7 @@
 | ✔️ | Відповідальний </br> `ResponsibleUser` | [📘 Користувач](./User.md) </br> `User` |  |
 | ✔️ | Спеціальний контрагент </br> `SpecialContractor` | [🎲 Спеціальний контрагент](../Enums/ESpecialContractor.md)❓ </br> `ESpecialContractor❓` |  |
 |  | Цей контрагент дублює </br> `ThisContractorIsDuplicateOf` | [📘 Контрагент](./Contractor.md) </br> `Contractor` | Посилання на контрагента якого дублює цей. Не дозволяти посилання на себе |
-|  | 📦 Номенклатура </br> `BL_Nmc` | 📦 Номенклатура </br> `Contractor__BL_Nmc` |  |
+|  | 📦 НОМЕНКЛАТУРА </br> `BL_Nmc` | 📦 Номенклатура </br> `Contractor__BL_Nmc` |  |
 | ✔️ | Заключення СЕБ </br> `SES_Conclusion` | [🎲 Статус СЕБ](../Enums/EStatusOfSES.md) </br> `EStatusOfSES` |  |
 | ⚠️ | Властивість </br> `Property` | [📘 Тип](./Type.md) </br> `Type` |  |
 
