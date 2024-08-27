@@ -11,10 +11,13 @@
 | ✔️ | Організаційно-правова форма </br> `LegalForm` | [📘 Організаційно-правова форма](./LegalForm.md) </br> `LegalForm` |  |
 | ✔️ | Коротка назва </br> `ShortName` | Стрічка </br> `String` |  |
 | ✔️ | Офіційна назва </br> `OfficialName` | Стрічка </br> `String` |  |
-| ⚠️ | Країна реєстрації контрагента </br> `RegistrationCountry` | [🎲 Країна реєстрації контрагента](../Enums/EContractorRegistrationCountry.md) </br> `Type` |  |
-| ⚠️ | Властивість </br> `Property` | [📘 Тип](./Type.md) </br> `Type` |  |
+| ✔️ | Країна реєстрації контрагента </br> `RegistrationCountry` | [🎲 Країна реєстрації контрагента](../Enums/EContractorRegistrationCountry.md) </br> `Type` |  |
+| ✔️ | Реєстраційний код (ЄДРПО, ІНН, ...) </br> `RegCode` | Стрічка </br> `String` | Має бути унікальним для резидентів |
+| ✔️ | Відповідальний </br> `ResponsibleUser` | [📘 Користувач](./User.md) </br> `User` |  |
+| ⚠️ | Спеціальний контрагент </br> `SpecialContractor` | [🎲 Спеціальний контрагент](./ESpecialContractor.md) </br> `ESpecialContractor` |  |
 |  | Цей контрагент дублює </br> `ThisContractorIsDuplicateOf` | [📘 Контрагент](./Contractor.md) </br> `Contractor` |  |
 |  | 📦 Номенклатура </br> `BL_Nmc` | 📦 Номенклатура </br> `Contractor__BL_Nmc` |  |
+| ⚠️ | Властивість </br> `Property` | [📘 Тип](./Type.md) </br> `Type` |  |
 
 
 ### Структура блоку 📦 Номенклатура `Contractor__BL_Nmc`

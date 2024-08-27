@@ -7,4 +7,5 @@
 - [🎲 Актуальність](./EActuality.md) `EActuality`
 - [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) `EContractorRegistrationCountry`
 - [🎲 Статус документу](./EDocStatus.md) `EDocStatus`
+- [🎲 Спеціальний контрагент](./ESpecialContractor.md) `ESpecialContractor`
 - [🎲 Наличие НДС](./KE_PresenceOfVAT.md) `KE_PresenceOfVAT`
