@@ -2,7 +2,7 @@
 
 #  📘 Довідники
 
-- [📘 Вкладення](./Attachment.md) `Attachment` `🏷️ Системний довідник`
+- [📘 Вкладення](./Attachment.md) `Attachment` `🏷️ Системний`
 - [📘 Стаття РГЗ (Руху Грошових Засобів)](./CashFlowsArticle.md) `CashFlowsArticle`
 - [📘 ЦФВ (Центр Фінансової Відповідальності)](./CFR.md) `CFR`
 - [📘 Контрагент](./Contractor.md) `Contractor`
@@ -17,4 +17,4 @@
 - [📘 Роль по напрямку в нашій компанії](./OurCompanyDirectionRole.md) `OurCompanyDirectionRole`
 - [📘 Користувач](./User.md) `User`
 - [📘 Посада](./UserPosition.md) `UserPosition`
-- [📘 Екземпляр робочого процесу](./WorkflowInstance.md) `WorkflowInstance` `🏷️ Системний довідник`
+- [📘 Екземпляр робочого процесу](./WorkflowInstance.md) `WorkflowInstance` `🏷️ Системний`
