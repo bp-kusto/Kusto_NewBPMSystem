@@ -9,8 +9,8 @@
 | [📘 ЦФВ (Центр Фінансової Відповідальності)](./CFR.md) </br> `CFR` | `🏷️ Базовий`  | |
 | [📘 Контрагент](./Contractor.md) </br> `Contractor` | `🏷️ Базовий` `🏷️ Системний`  | |
 | [📘 Департамент](./Department.md) </br> `Department` | `🏷️ Базовий`  | |
-| [📘 С/Х культура](./KO_AgriCulture.md) </br> `KO_AgriCulture` |  | ⚠️ не описано |
-| [📘 Способ доставки](./KO_DeliveryMethod.md) </br> `KO_DeliveryMethod` |  | ⚠️ не описано |
+| [📘 С/Х культура](./KO_AgriCulture.md) </br> `KO_AgriCulture` |  |  |
+| [📘 Способ доставки](./KO_DeliveryMethod.md) </br> `KO_DeliveryMethod` |  |  |
 | [📘 Організаційно-правова форма](./LegalForm.md) </br> `LegalForm` | `🏷️ Системний`  | ⚠️ не описано |
 | [📘 Од. виміру](./MeasureUnit.md) </br> `MeasureUnit` | | ⚠️ не описано |
 | [📘 Номенклатура](./Nomenclature.md) </br> `Nomenclature`  | | |
