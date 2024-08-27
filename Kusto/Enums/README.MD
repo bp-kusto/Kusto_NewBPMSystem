@@ -10,4 +10,4 @@
 - [🎲 Спеціальний контрагент](./ESpecialContractor.md) `ESpecialContractor`
 - [🎲 Статус СЕБ](./EStatusOfSES.md) `EStatusOfSES`
 - [🎲 Наличие НДС](./KE_PresenceOfVAT.md) `KE_PresenceOfVAT`
-- [🎲 Статус экземпляра процесса](./WorkflowInstanceStatus.md) `WorkflowInstanceStatus`
+- [🎲 Статус экземпляра процесса](./WorkflowInstanceStatus.md) `WorkflowInstanceStatus` `🏷️ Системний перелік`
