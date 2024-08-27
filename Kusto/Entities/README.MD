@@ -17,3 +17,4 @@
 - [📘 Контрагент](./Contractor.md) `Contractor` ⚠️
 - [📘 С/Х культура](./KO_AgriCulture.md) `KO_AgriCulture` ⚠️
 - [📘 Способ доставки](./KO_DeliveryMethod.md) `KO_DeliveryMethod` ⚠️
+- [📘 Організаційно-правова форма](./LegalForm.md) `LegalForm` ⚠️
