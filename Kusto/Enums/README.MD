@@ -2,13 +2,16 @@
 
 # 🎲 Переліки
 
-- [🎲 Тип валюты](./CurrencyType.md) `CurrencyType`
-- [🎲 Базис поставки](./DeliveryBasis.md) `DeliveryBasis`
-- [🎲 Актуальність](./EActuality.md) `EActuality`
-- [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) `EContractorRegistrationCountry`
-- [🎲 Статус валідації контрагента](./EContractorValidationStatus.md) `EContractorValidationStatus`
-- [🎲 Статус документу](./EDocStatus.md) `EDocStatus`
-- [🎲 Спеціальний контрагент](./ESpecialContractor.md) `ESpecialContractor`
-- [🎲 Статус СЕБ](./EStatusOfSES.md) `EStatusOfSES`
-- [🎲 Наличие НДС](./KE_PresenceOfVAT.md) `KE_PresenceOfVAT`
-- [🎲 Статус экземпляра процесса](./WorkflowInstanceStatus.md) `WorkflowInstanceStatus` `🏷️ Системний перелік`
+
+| Перелік </br> `Enum` | Мітки | Примітки |
+| --- | --- | --- |
+| [🎲 Тип валюты](./CurrencyType.md) </br> `CurrencyType` | | |
+| [🎲 Базис поставки](./DeliveryBasis.md) </br> `DeliveryBasis` | | |
+| [🎲 Актуальність](./EActuality.md) </br> `EActuality` | | |
+| [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) </br> `EContractorRegistrationCountry` | | |
+| [🎲 Статус валідації контрагента](./EContractorValidationStatus.md) </br> `EContractorValidationStatus` | | |
+| [🎲 Статус документу](./EDocStatus.md) </br> `EDocStatus` | | |
+| [🎲 Спеціальний контрагент](./ESpecialContractor.md) </br> `ESpecialContractor` | | |
+| [🎲 Статус СЕБ](./EStatusOfSES.md) </br> `EStatusOfSES` | | |
+| [🎲 Наличие НДС](./KE_PresenceOfVAT.md) </br> `KE_PresenceOfVAT` | | |
+| [🎲 Статус экземпляру процесу](./WorkflowInstanceStatus.md) </br> `WorkflowInstanceStatus`  | `🏷️ Системнe` | |
