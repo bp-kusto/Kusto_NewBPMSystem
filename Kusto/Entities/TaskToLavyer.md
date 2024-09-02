@@ -32,11 +32,11 @@
 | Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` | 🚧 |
 | `🔍` Предмет </br> `Subject` | Стрічка </br> `String` |  |
 | `🔍` Ціна </br> `Price` | `❓` Дробне число </br> `Double❓` |  |
-| `🔍` Валюта </br> `Currency` | `❓` 🎲 [Валюта](../Enums/ECurrency.md) </br> `ECurrency❓` | 🚧 |
+| `🔍` Валюта </br> `Currency` | `❓` 🎲 [Валюта](../Enums/ECurrency.md) </br> `ECurrency❓` |  |
 | Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` |  |
 | Термін поставки </br> `DeliveryTime` | `❓` Дата / час </br> `DateTime❓` |  |
 | `🔍` Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
-| `🔍` Базис поставки </br> `DeliveryBasis` | `❓` 🎲 [Базис поставки](../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis❓` | 🚧 |
+| `🔍` Базис поставки </br> `DeliveryBasis` | `❓` 🎲 [Базис поставки](../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis❓` |  |
 | Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
 | 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | Блок </br> `🚧` |  |
 |    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../Entities/OurCompany.md) </br> `OurCompany` |  |
