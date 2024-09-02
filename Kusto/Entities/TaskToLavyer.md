@@ -14,7 +14,7 @@
 | `🔍` Дата задачі </br> `TaskDate` | Дата / час </br> `DateTime` |  |
 | `🔍` 👤 Автор задачі </br> `Usr_Initiator` | 📘 [Користувач](../Entities/User.md) </br> `User` |  |
 | `🔍` 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../Entities/User.md) </br> `User` |  |
-| `🔍` Тип задачі юристу </br> `TypeOfTaskToLawyer` | `❓` 🎲 [Тип задачі юристу](../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType❓` | 🚧 |
+| `🔍` Тип задачі юристу </br> `TypeOfTaskToLawyer` | `❓` 🎲 [Тип задачі юристу](../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType❓` |  |
 | Терміновість </br> `Urgency` | Стрічка </br> `String` |  |
 | `🔍` ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../Entities/CFR.md) </br> `CFR` |  |
 | `🔍` Департамент </br> `Department` | 📘 [Департамент](../Entities/Department.md) </br> `Department` |  |
