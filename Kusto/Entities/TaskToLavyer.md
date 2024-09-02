@@ -19,7 +19,7 @@
 | `🔍` ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../Entities/CFR.md) </br> `CFR` |  |
 | `🔍` Департамент </br> `Department` | 📘 [Департамент](../Entities/Department.md) </br> `Department` |  |
 | `🔍` Контрагент </br> `Contractor` | 📘 [Контрагент](../Entities/Contractor.md) </br> `Contractor` |  |
-| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../Entities/Attachment.md)> </br> `ICollection<Attachment>` | 🚧 |
+| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
 | `🔍` Тип договору </br> `ContractType` | `❓` 🎲 [Тип договору](../Enums/EContractType.md) </br> `EContractType❓` | 🚧 |
 | `🔍` Шаблон договору </br> `ContractTemplateType` | `❓` 🎲 [Тип шаблону договору](../Enums/EContractTemplateType.md) </br> `EContractTemplateType❓` | 🚧 |
 | Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../Documents/D24032_Contract.md) </br> `D24032_Contract` | 🚧 |
@@ -39,6 +39,6 @@
 | `🔍` Базис поставки </br> `DeliveryBasis` | `❓` 🎲 [Базис поставки](../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis❓` | 🚧 |
 | Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
 | 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | Блок </br> `🚧` |  |
-|    Наша компанія </br> `BI_OurCompany` | [📘 Наша компанія (Объект)](../Entities/🚧.md) </br> `🚧` | 🚧 |
+|    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../Entities/OurCompany.md) </br> `OurCompany` | 🚧 |
 |    Кількість </br> `BI_Amount` | Дробне число </br> `Double` |  |
 |    Сума </br> `BI_Sum` | Дробне число </br> `Double` |  |
