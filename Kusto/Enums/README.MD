@@ -13,5 +13,6 @@
 | [🎲 Статус документу](./EDocStatus.md) </br> `EDocStatus` | | |
 | [🎲 Спеціальний контрагент](./ESpecialContractor.md) </br> `ESpecialContractor` | | |
 | [🎲 Статус СЕБ](./EStatusOfSES.md) </br> `EStatusOfSES` | | |
+| [🎲 Статус задачі юристу](./ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` | | `🚧 UnderConstruction` |
 | [🎲 Наличие НДС](./KE_PresenceOfVAT.md) </br> `KE_PresenceOfVAT` | | |
-| [🎲 Статус экземпляру процесу](./WorkflowInstanceStatus.md) </br> `WorkflowInstanceStatus`  | `🏷️ Системнe` | |
+| [🎲 Статус экземпляру процесу](./WorkflowInstanceStatus.md) </br> `WorkflowInstanceStatus`  | `🏷️ Системні` | |
