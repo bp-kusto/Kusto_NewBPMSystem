@@ -12,6 +12,7 @@
 | [🎲 Статус валідації контрагента](./EContractorValidationStatus.md) </br> `EContractorValidationStatus` | | |
 | [🎲 Тип шаблону договору](./EContractTemplateType.md) </br> `EContractTemplateType` | | `🚧 UnderConstruction` |
 | [🎲 Тип договору](./EContractType.md) </br> `EContractType` | | `🚧 UnderConstruction` |
+| [🎲 Валюта](./ECurrency.md) </br> `ECurrency` | | `🚧 UnderConstruction` |
 | [🎲 Статус документу](./EDocStatus.md) </br> `EDocStatus` | | |
 | [🎲 Спеціальний контрагент](./ESpecialContractor.md) </br> `ESpecialContractor` | | |
 | [🎲 Статус СЕБ](./EStatusOfSES.md) </br> `EStatusOfSES` | | |
