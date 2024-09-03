@@ -17,7 +17,8 @@
 | [📘 Наша компанія](./OurCompany.md) </br> `OurCompany` | `🏷️ Базовий`  | |
 | [📘 Напрямок нашої компанії](./OurCompanyDirection.md) </br> `OurCompanyDirection` | `🏷️ Базовий`  | |
 | [📘 Роль по напрямку в нашій компанії](./OurCompanyDirectionRole.md) </br> `OurCompanyDirectionRole` | `🏷️ Базовий`  | |
-| [📘 Задача юристу](./TaskToLavyer.md) </br> `TaskToLavyer`  | | `⏳ В процесі` |
+| [📘 Задача юристу](./TaskToLavyer.md) </br> `TaskToLavyer`  | | `🚧 UnderConstruction` |
+| [📘 Тендер](./Tender.md) </br> `Tender`  | | `🚧 UnderConstruction` |
 | [📘 Користувач](./User.md) </br> `User`  | `🏷️ Системний`  | |
 | [📘 Посада](./UserPosition.md) </br> `UserPosition` | `🏷️ Системний`  | |
 | [📘 Екземпляр робочого процесу](./WorkflowInstance.md) </br> `WorkflowInstance` | `🏷️ Системний`  | |
