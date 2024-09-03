@@ -22,14 +22,14 @@
 | Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
 | `🔍` Тип договору </br> `ContractType` | `❓` 🎲 [Тип договору](../Enums/EContractType.md) </br> `EContractType❓` |  |
 | `🔍` Шаблон договору </br> `ContractTemplateType` | `❓` 🎲 [Тип шаблону договору](../Enums/EContractTemplateType.md) </br> `EContractTemplateType❓` |  |
-| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../Documents/D24032_Contract.md) </br> `D24032_Contract` | 🚧 |
+| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
 | `🔍` Тип підстави </br> `BasementType` | `❓` 🎲 [Тип підстави договору](../Enums/EContractBasementType.md) </br> `EContractBasementType❓` |  |
 | Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
 | Показники якості (д. договору по продажам) </br> `QualityIndicators` | Стрічка </br> `String` |  |
-| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📕 [Заявка на ТМЦ](../Documents/D24142a_AppForTMC.md) </br> `D24142a_AppForTMC` | 🚧 |
-| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../Entities/Tender.md) </br> `Tender` | 🚧 |
-| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` | 🚧 |
-| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` | 🚧 |
+| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📕 [Заявка на ТМЦ](../Documents/D24142a_AppForTMC.md) </br> `D24142a_AppForTMC` |  |
+| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../Entities/Tender.md) </br> `Tender` |  |
+| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
+| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
 | `🔍` Предмет </br> `Subject` | Стрічка </br> `String` |  |
 | `🔍` Ціна </br> `Price` | `❓` Дробне число </br> `Double❓` |  |
 | `🔍` Валюта </br> `Currency` | `❓` 🎲 [Валюта](../Enums/ECurrency.md) </br> `ECurrency❓` |  |
