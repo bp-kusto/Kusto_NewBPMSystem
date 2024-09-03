@@ -5,7 +5,7 @@
 | Перелік </br> `Enum` | Мітки | Примітки |
 | --- | --- | --- |
 | [🎲 Тип валюты](./CurrencyType.md) </br> `CurrencyType` | | |
-| [🎲 Базис поставки](./DeliveryBasis.md) </br> `DeliveryBasis` | | |
+| [🎲 Базис поставки](./DeliveryBasis.md) </br> `DeliveryBasis` | | `⛔ Застаріло` |
 | [🎲 Актуальність](./EActuality.md) </br> `EActuality` | | |
 | [🎲 Тип підстави договору](./EContractBasementType.md) </br> `EContractBasementType` | |  |
 | [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) </br> `EContractorRegistrationCountry` | | |
