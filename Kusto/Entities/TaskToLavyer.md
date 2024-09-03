@@ -23,7 +23,7 @@
 | `🔍` Тип договору </br> `ContractType` | `❓` 🎲 [Тип договору](../Enums/EContractType.md) </br> `EContractType❓` |  |
 | `🔍` Шаблон договору </br> `ContractTemplateType` | `❓` 🎲 [Тип шаблону договору](../Enums/EContractTemplateType.md) </br> `EContractTemplateType❓` |  |
 | Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../Documents/D24032_Contract.md) </br> `D24032_Contract` | 🚧 |
-| `🔍` Тип підстави </br> `BasementType` | `❓` 🎲 [Тип підстави договору](../Enums/EContractBasementType.md) </br> `EContractBasementType❓` | 🚧 |
+| `🔍` Тип підстави </br> `BasementType` | `❓` 🎲 [Тип підстави договору](../Enums/EContractBasementType.md) </br> `EContractBasementType❓` |  |
 | Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
 | Показники якості (д. договору по продажам) </br> `QualityIndicators` | Стрічка </br> `String` |  |
 | Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📕 [Заявка на ТМЦ](../Documents/D24142a_AppForTMC.md) </br> `D24142a_AppForTMC` | 🚧 |
