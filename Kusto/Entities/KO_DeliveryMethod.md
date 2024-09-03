@@ -1,4 +1,4 @@
-﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Способ доставки `KO_DeliveryMethod`
 
 # 📘 Способ доставки `KO_DeliveryMethod`
 

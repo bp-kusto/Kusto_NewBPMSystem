@@ -1,6 +1,6 @@
-﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Роль по напрямку в нашій компанії `OurCompanyDirectionRole` 
 
-# 📘 Роль по напрямок в нашій компанії `OurCompanyDirectionRole`
+# 📘 Роль по напрямку в нашій компанії `OurCompanyDirectionRole`
 
 ## Структура довідника
 | Властивість | Тип даних | Примітки |

@@ -1,4 +1,4 @@
-﻿[🏠 Головна](../README.MD) / [📕 Документи](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [📕 Документи](./README.MD) / 📕 Реєстр угоди `KD_DealRegister` 
 
 # 📕 Реєстр угоди `KD_DealRegister`
 

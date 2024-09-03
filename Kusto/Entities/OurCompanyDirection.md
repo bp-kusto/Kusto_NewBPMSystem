@@ -1,4 +1,4 @@
-﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Напрямок нашої компанії `OurCompanyDirection` 
 
 # 📘 Напрямок нашої компанії `OurCompanyDirection`
 

@@ -1,4 +1,4 @@
-﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Контрагент `Contractor`
 
 # 📘 Контрагент `Contractor`
 
