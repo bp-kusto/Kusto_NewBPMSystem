@@ -1,6 +1,6 @@
-﻿[🏠 Головна](../README.MD) / [🎲 Переліки](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [🎲 Переліки](./README.MD) / 🎲 Базис поставки `DeliveryBasis`
 
-# 🎲 Базис поставки `DeliveryBasis`
+# 🎲 Базис поставки `DeliveryBasis` </br> `⛔ Застаріло` (використовувати [🎲 Базис поставки](./EDeliveryBasis.md))
 
 | Назва </br> `Name` | Значення |
 | --- | --- |
