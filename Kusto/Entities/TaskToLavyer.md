@@ -29,7 +29,7 @@
 | Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📕 [Заявка на ТМЦ](../Documents/D24142a_AppForTMC.md) </br> `D24142a_AppForTMC` |  |
 | Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../Entities/Tender.md) </br> `Tender` |  |
 | Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
-| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
+| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам (базовий)](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
 | `🔍` Предмет </br> `Subject` | Стрічка </br> `String` |  |
 | `🔍` Ціна </br> `Price` | `❓` Дробне число </br> `Double❓` |  |
 | `🔍` Валюта </br> `Currency` | `❓` 🎲 [Валюта](../Enums/ECurrency.md) </br> `ECurrency❓` |  |
