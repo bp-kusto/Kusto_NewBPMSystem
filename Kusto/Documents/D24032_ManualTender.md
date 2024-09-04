@@ -1,6 +1,6 @@
 ﻿[🏠 Головна](../README.MD) / [📕 Документи](./README.MD) / 📕 Протокол ручного тендеру `D24032_ManualTender`
 
-# 📕 Протокол ручного тендеру `D24032_ManualTender` </br> `🚧 UnderConstruction`
+# 📕 Протокол ручного тендеру `D24032_ManualTender`
 
 ## Структура документу
 
@@ -15,7 +15,7 @@
 | `🔍` Департамент </br> `Department` | 📘 [Департамент](../Entities/Department.md) </br> `Department` |  |
 | `🔍` Підстава ручного тендеру </br> `ManualTenderBase` | 🎲 [Підстава ручного тендеру](../Enums/EManualTenderBase.md) </br> `EManualTenderBase` | 🚧 |
 | Пов'язані заявки на закупку ТМЦ </br> `RelatedAppsForTMC` | 🗃 Колекція<📘 [Заявка на ТМЦ](../Entities/Request.md)> </br> `ICollection<Request>` | 🚧 |
-| Службова записка по тривогам </br> `ServiceNoteByAlerts` | 📕 [Заявка на закупку ТМЦ v2](../Documents/AppTMCv2Doc.md) </br> `AppTMCv2Doc` | 🚧 |
+| Службова записка по тривогам </br> `ServiceNoteByAlerts` | 📕 [Службова записка по тривогам (базовий)](../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` | 🚧 |
 | Примітки </br> `Remarks` | Стрічка </br> `String` |  |
 | Вкладення </br> `AttachmentsWithFiles` | 🗃 Колекція<📘 [Вкладення](../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
 | Статус документу </br> `DocStatus` | 🎲 [Статус документу](../Enums/EDocStatus.md) </br> `EDocStatus` | 🚧 |
