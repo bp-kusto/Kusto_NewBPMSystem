@@ -21,4 +21,4 @@
 || [🎲 Статус задачі юристу](./ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` | |  |
 || [🎲 Тип задачі юристу](./ETaskToLawyerType.md) </br> `ETaskToLawyerType` | |  |
 || [🎲 Наличие НДС](./KE_PresenceOfVAT.md) </br> `KE_PresenceOfVAT` | | |
-|| [🎲 Статус экземпляру процесу](./WorkflowInstanceStatus.md) </br> `WorkflowInstanceStatus`  | `🏷️ Системні` | |
+|| [🎲 Статус экземпляру процесу](./WorkflowInstanceStatus.md) </br> `WorkflowInstanceStatus`  | `⚙️ Системні` | |
