@@ -22,3 +22,4 @@
 | [📘 Користувач](./User.md) </br> `User`  | `🏷️ Системні`  | |
 | [📘 Посада](./UserPosition.md) </br> `UserPosition` | `🏷️ Системні`  | |
 | [📘 Екземпляр робочого процесу](./WorkflowInstance.md) </br> `WorkflowInstance` | `🏷️ Системні`  | |
+| [📘 Заявка на ТМЦ](./Request.md) </br> `Request`  | `🚧 UnderConstruction` | |
