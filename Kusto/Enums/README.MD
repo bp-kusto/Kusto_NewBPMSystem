@@ -15,6 +15,7 @@
 | [🎲 Валюта](./ECurrency.md) </br> `ECurrency` | |  |
 | [🎲 Базис поставки](./EDeliveryBasis.md) </br> `EDeliveryBasis` | | |
 | [🎲 Статус документу](./EDocStatus.md) </br> `EDocStatus` | | |
+| [🎲 Підстава ручного тендеру](./EManualTenderBase.md) </br> `EManualTenderBase`  |  |  |
 | [🎲 Спеціальний контрагент](./ESpecialContractor.md) </br> `ESpecialContractor` | | |
 | [🎲 Статус СЕБ](./EStatusOfSES.md) </br> `EStatusOfSES` | | |
 | [🎲 Статус задачі юристу](./ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` | |  |
