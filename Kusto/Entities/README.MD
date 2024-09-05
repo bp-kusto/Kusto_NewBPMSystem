@@ -19,7 +19,7 @@
 || [📘 Наша компанія](./OurCompany.md) </br> `OurCompany` | `🧱 Базові`  | |
 || [📘 Напрямок нашої компанії](./OurCompanyDirection.md) </br> `OurCompanyDirection` | `🧱 Базові`  | |
 || [📘 Роль по напрямку в нашій компанії](./OurCompanyDirectionRole.md) </br> `OurCompanyDirectionRole` | `🧱 Базові`  | |
-|🚧| [📘 Задача юристу](./TaskToLavyer.md) </br> `TaskToLavyer`  | `🚧 UnderConstruction` | |
+|🚧| [📘 Задача юристу](./TaskToLawyer.md) </br> `TaskToLawyer`  |  | |
 |🚧| [📘 Тендер](./Tender.md) </br> `Tender`  | `🚧 UnderConstruction` | |
 || [📘 Користувач](./User.md) </br> `User`  | `⚙️ Системні`  | |
 || [📘 Посада](./UserPosition.md) </br> `UserPosition` | `⚙️ Системні`  | |
