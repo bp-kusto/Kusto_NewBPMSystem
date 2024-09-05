@@ -6,7 +6,7 @@
 |---|---|---|---|
 || [🎲 Тип валюты](./CurrencyType.md) </br> `CurrencyType` | | |
 |⛔| [🎲 Базис поставки](./DeliveryBasis.md) </br> `DeliveryBasis` | `⛔ Застаріло` | |
-|| [🎲 Актуальність](./EActuality.md) </br> `EActuality` | | |
+|| [🎲 Актуальність](./EActuality.md) </br> `EActuality` | `🧱 Базові` | |
 || [🎲 Тип підстави договору](./EContractBasementType.md) </br> `EContractBasementType` | |  |
 || [🎲 Країна реєстрації контрагента](./EContractorRegistrationCountry.md) </br> `EContractorRegistrationCountry` | | |
 || [🎲 Статус валідації контрагента](./EContractorValidationStatus.md) </br> `EContractorValidationStatus` | | |
