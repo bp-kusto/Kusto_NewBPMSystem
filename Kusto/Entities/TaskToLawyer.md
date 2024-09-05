@@ -1,6 +1,6 @@
-﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Задача юристу `TaskToLavyer`
+﻿[🏠 Головна](../README.MD) / [📘 Довідники](./README.MD) / 📘 Задача юристу `TaskToLawyer`
 
-# 📘 Задача юристу `TaskToLavyer` </br> `🚧 UnderConstruction`
+# 📘 Задача юристу `TaskToLawyer` </br> `🚧 UnderConstruction`
 
 ## Структура довідника
 
