@@ -1,3 +1,9 @@
-﻿[🏠 Головна](../README.MD) / [📕 Документи](./README.MD) / 📕 Договір `D24032_Contract` `🚧 UnderConstruction`
+﻿[🏠 Головна](../README.MD) / [📕 Документи](./README.MD) / 🚧 📕 Договір `D24032_Contract`
 
-# 📕 Договір `D24032_Contract`</br> `🚧 UnderConstruction`
+# 🚧 📕 Договір `D24032_Contract`
+
+## Структура документу
+
+|🛠️| Властивість </br> `Property` | Тип даних </br> `DataType` | Примітки |
+|---|---|---|---|
+|🚧|---|---|---|

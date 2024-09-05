@@ -1,8 +1,10 @@
-﻿[🏠 Головна](../README.MD) / [🎲 Переліки](./README.MD)  
+﻿[🏠 Головна](../README.MD) / [🎲 Переліки](./README.MD) / 🎲 Країна реєстрації контрагента `EContractorRegistrationCountry`
 
 # 🎲 Країна реєстрації контрагента `EContractorRegistrationCountry`
 
-| Значення | Назва | Примітки |
-|---|---|---|
-| 0 | 🇺🇦 Україна </br> `Resident` |  |
-| 1 | НЕ РЕЗИДЕНТ </br> `NotResident` |  |
+## Структура переліку
+
+|🛠️| Назва </br> `Name` | Значення | Примітки |
+|---|---|---:|---|
+|| 🇺🇦 Україна </br> `Resident` | 0 ||
+|| НЕ РЕЗИДЕНТ </br> `NotResident` | 1 ||
