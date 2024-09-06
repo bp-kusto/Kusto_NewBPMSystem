@@ -97,7 +97,7 @@
 ||`     ✏️❗`| Контрагент </br> `Contractor` | 📘 [Контрагент](../../../Entities/Contractor.md) </br> `Contractor` |  |
 ||`     ✏️❗`| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
 ||`     ✏️❗`| Предмет </br> `Subject` | Стрічка </br> `String` |  |
-||`     ✏️❗`| Ціна </br> `Price` | Дробне число </br> `Double` |  |
+|❓⛔|`     ✏️❗`| Ціна </br> `Price` | Дробне число </br> `Double` | ❓ Перенести в блок `🧰 10 НАШІ КОМПАНІЇ` |
 ||`     ✏️❗`| Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` |  |
 ||| ◤ ПАРАМЕТРИ |---|Блок на формі|
 ||`     ✏️❗`| Тип договору </br> `ContractType` | 🎲 [Тип договору](../../../Enums/EContractType.md) </br> `EContractType` |  |
@@ -112,8 +112,7 @@
 ||| ◤ НАШІ КОМПАНІЇ |---|Блок на формі|
 |🚧|`     ✏️❗`| `🧰 10` НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
 ||`     ✏️❗`| `🧰 10 🧩` Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
-|⛔|| `🧰 10 🧩` Кількість </br> `BI_Amount` | Дробне число </br> `Double` | Не використовувати |
-|⛔|| `🧰 10 🧩` Сума </br> `BI_Sum` | Дробне число </br> `Double` | Не використовувати |
+|❓|`     ✏️❗`| `🧰 10 🧩` Ціна </br> `BI_Price` | Дробне число </br> `Double` |  |
 ||`     ✏️❗`| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
 ||`     ✏️❗`| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
 ||| ◤ ПОСТАВКА |---|Блок на формі|
@@ -122,6 +121,4 @@
 ||`     ✏️❗`| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
 ||`     ✏️❗`| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
 ||| ◤ ДОДАТКОВІ ПРИМІТКИ |---|Блок на формі|
-||| Назва процесу </br> `ProcName` | Стрічка </br> `String` |  |
-||| Статус процесу </br> `ProcStatus` | 🎲 [Статус задачі юристу](../../../Enums/ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` |  |
-||| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
+||`     ✏️ `| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
