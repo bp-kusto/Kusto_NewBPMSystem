@@ -105,23 +105,23 @@
 ||`     ✏️❗`| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
 ||`     ✏️❗`| Тип підстави </br> `BasementType` | 🎲 [Тип підстави договору](../../../Enums/EContractBasementType.md) </br> `EContractBasementType` |  |
 ||`     ✏️❗`| Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
+||`     ✏️❗`| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` |  |
+||`     ✏️❗`| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` |  |
+||`     ✏️❗`| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
+||`     ✏️❗`| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
 ||| ◤ НАШІ КОМПАНІЇ |---|Блок на формі|
+|🚧|`     ✏️❗`| `🧰 10` НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
+||`     ✏️❗`| `🧰 10 🧩` Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
+|⛔|| `🧰 10 🧩` Кількість </br> `BI_Amount` | Дробне число </br> `Double` | Не використовувати |
+|⛔|| `🧰 10 🧩` Сума </br> `BI_Sum` | Дробне число </br> `Double` | Не використовувати |
+||`     ✏️❗`| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
+||`     ✏️❗`| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
 ||| ◤ ПОСТАВКА |---|Блок на формі|
+||`     ✏️❗`| Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` |  |
+||`     ✏️❗`| Термін поставки </br> `DeliveryTime` | Дата / час </br> `DateTime` |  |
+||`     ✏️❗`| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
+||`     ✏️❗`| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
 ||| ◤ ДОДАТКОВІ ПРИМІТКИ |---|Блок на формі|
 ||| Назва процесу </br> `ProcName` | Стрічка </br> `String` |  |
 ||| Статус процесу </br> `ProcStatus` | 🎲 [Статус задачі юристу](../../../Enums/ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` |  |
-||| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
-||| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
-||| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` |  |
-||| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` |  |
-||| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
-||| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
-||| Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` |  |
-||| Термін поставки </br> `DeliveryTime` | Дата / час </br> `DateTime` |  |
-||| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
-||| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
 ||| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
-|🚧|| 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
-|||    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
-|||    Кількість </br> `BI_Amount` | Дробне число </br> `Double` |  |
-|||    Сума </br> `BI_Sum` | Дробне число </br> `Double` |  |
