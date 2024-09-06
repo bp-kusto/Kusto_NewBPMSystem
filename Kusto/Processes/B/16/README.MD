@@ -86,20 +86,20 @@
 |🛠️|На формі| Властивість </br> `Property` | Тип даних </br> `DataType` | Примітки |
 |---|---|---|---|---|
 ||`  👁️    `| Об'єкт процесу </br> `ProcObject` | 📘 [Задача юристу](../../../Entities/TaskToLawyer.md) </br> `TaskToLawyer` |  |
-||| ◤ ІДЕНТИФІКАЦІЯ |---|Блок на формі|
+||| ◤ ІДЕНТИФІКАЦІЯ |---|Група даних на формі|
 ||`  👁️    `| 👤 Ініціатор процесу </br> `Z10Usr_Initiator` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
 ||`  👁️    `| № процесу </br> `ProcNumber` | Ціле число </br> `Int64` |  |
 ||`  👁️    `| Дата процесу </br> `ProcDate` | Дата / час </br> `DateTime` |  |
-||| ◤ ЗАДАЧА ЮРИСТУ |---|Блок на формі|
+||| ◤ ЗАДАЧА ЮРИСТУ |---|Група даних на формі|
 ||`     ✏️❗`| 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
 ||`     ✏️❗`| Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` |  |
-||| ◤ КОНТРАГЕНТ та ПРЕДМЕТ |---|Блок на формі|
+||| ◤ КОНТРАГЕНТ та ПРЕДМЕТ |---|Група даних на формі|
 ||`     ✏️❗`| Контрагент </br> `Contractor` | 📘 [Контрагент](../../../Entities/Contractor.md) </br> `Contractor` |  |
 ||`     ✏️❗`| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
 ||`     ✏️❗`| Предмет </br> `Subject` | Стрічка </br> `String` |  |
 |❓⛔|`     ✏️❗`| Ціна </br> `Price` | Дробне число </br> `Double` | ❓ Перенести в блок `🧰 10 НАШІ КОМПАНІЇ` |
 ||`     ✏️❗`| Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` |  |
-||| ◤ ПАРАМЕТРИ |---|Блок на формі|
+||| ◤ ПАРАМЕТРИ |---|Група даних на формі|
 ||`     ✏️❗`| Тип договору </br> `ContractType` | 🎲 [Тип договору](../../../Enums/EContractType.md) </br> `EContractType` |  |
 |⛔|`     ✏️❗`| Шаблон договору </br> `ContractTemplateType` | 🎲 [Тип шаблону договору](../../../Enums/EContractTemplateType.md) </br> `EContractTemplateType` | Не відображати на формі ініціатора |
 ||`     ✏️❗`| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
@@ -109,16 +109,16 @@
 ||`     ✏️❗`| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` |  |
 ||`     ✏️❗`| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
 ||`     ✏️❗`| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
-||| ◤ НАШІ КОМПАНІЇ |---|Блок на формі|
+||| ◤ НАШІ КОМПАНІЇ |---|Група даних на формі|
 |🚧|`     ✏️❗`| `🧰 10` НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
 ||`     ✏️❗`| `🧰 10 🧩` Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
 |❓|`     ✏️❗`| `🧰 10 🧩` Ціна </br> `BI_Price` | Дробне число </br> `Double` |  |
 ||`     ✏️❗`| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
 ||`     ✏️❗`| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
-||| ◤ ПОСТАВКА |---|Блок на формі|
+||| ◤ ПОСТАВКА |---|Група даних на формі|
 ||`     ✏️❗`| Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` |  |
 ||`     ✏️❗`| Термін поставки </br> `DeliveryTime` | Дата / час </br> `DateTime` |  |
 ||`     ✏️❗`| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
-||`     ✏️❗`| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
-||| ◤ ДОДАТКОВІ ПРИМІТКИ |---|Блок на формі|
+||`     ✏️ `| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
+||| ◤ ДОДАТКОВІ ПРИМІТКИ |---|Група даних на формі|
 ||`     ✏️ `| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
