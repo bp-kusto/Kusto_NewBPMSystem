@@ -97,14 +97,14 @@
 || Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` | False |
 || Предмет </br> `Subject` | Стрічка </br> `String` | False |
 || Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` | False |
-|| Тип і підстава договору </br> `ContractKindAndBasement` | 📘 [Тип і підстава договору](../../../Entities/ContractKindAndBasement.md) </br> `ContractKindAndBasement` | False |
+|🚧| Тип і підстава договору </br> `ContractKindAndBasement` | 📘 [Тип і підстава договору](../../../Entities/ContractKindAndBasement.md) </br> `ContractKindAndBasement` | False |
 || Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` | False |
 || Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` | False |
 || Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` | False |
 || Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` | False |
 || Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` | False |
 || Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` | False |
-|| Підстава. Службова записка </br> `Base_ServiceNote` | 📕 [Службова записка](../../../Documents/ServiceNote.md) </br> `ServiceNote` | False |
+|🚧| Підстава. Службова записка </br> `Base_ServiceNote` | 📕 [Службова записка](../../../Documents/ServiceNote.md) </br> `ServiceNote` | False |
 |🚧| 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` | False |
 ||    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` | False |
 ||    Ціна </br> `BI_Price` | Дробне число </br> `Double` | False |
