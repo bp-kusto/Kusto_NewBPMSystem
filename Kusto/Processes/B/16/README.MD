@@ -83,42 +83,35 @@
 - `     ✏️ ` — Для заповнення
 - `     ✏️❗` — Для заповнення, **обов'язково**
 
-|🛠️|На формі| Властивість </br> `Property` | Тип даних </br> `DataType` | Примітки |
-|---|---|---|---|---|
-||`  👁️    `| Об'єкт процесу </br> `ProcObject` | 📘 [Задача юристу](../../../Entities/TaskToLawyer.md) </br> `TaskToLawyer` |  |
-||| ◤ ІДЕНТИФІКАЦІЯ |---|Група даних на формі|
-||`  👁️    `| 👤 Ініціатор процесу </br> `Z10Usr_Initiator` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
-||`  👁️    `| № процесу </br> `ProcNumber` | Ціле число </br> `Int64` |  |
-||`  👁️    `| Дата процесу </br> `ProcDate` | Дата / час </br> `DateTime` |  |
-||| ◤ ЗАДАЧА ЮРИСТУ |---|Група даних на формі|
-||`     ✏️❗`| 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
-||`     ✏️❗`| Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` |  |
-||| ◤ КОНТРАГЕНТ та ПРЕДМЕТ |---|Група даних на формі|
-||`     ✏️❗`| Контрагент </br> `Contractor` | 📘 [Контрагент](../../../Entities/Contractor.md) </br> `Contractor` |  |
-||`     ✏️❗`| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` |  |
-||`     ✏️❗`| Предмет </br> `Subject` | Стрічка </br> `String` |  |
-|❓⛔|`     ✏️❗`| Ціна </br> `Price` | Дробне число </br> `Double` | ❓ Перенести в блок `🧰 10 НАШІ КОМПАНІЇ` |
-||`     ✏️❗`| Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` |  |
-||| ◤ ПАРАМЕТРИ |---|Група даних на формі|
-||`     ✏️❗`| Тип договору </br> `ContractType` | 🎲 [Тип договору](../../../Enums/EContractType.md) </br> `EContractType` |  |
-|⛔|`     ✏️❗`| Шаблон договору </br> `ContractTemplateType` | 🎲 [Тип шаблону договору](../../../Enums/EContractTemplateType.md) </br> `EContractTemplateType` | Не відображати на формі ініціатора |
-||`     ✏️❗`| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
-||`     ✏️❗`| Тип підстави </br> `BasementType` | 🎲 [Тип підстави договору](../../../Enums/EContractBasementType.md) </br> `EContractBasementType` |  |
-||`     ✏️❗`| Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
-||`     ✏️❗`| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` |  |
-||`     ✏️❗`| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` |  |
-||`     ✏️❗`| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
-||`     ✏️❗`| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` |  |
-||| ◤ НАШІ КОМПАНІЇ |---|Група даних на формі|
-|🚧|`     ✏️❗`| `🧰 10` НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
-||`     ✏️❗`| `🧰 10 🧩` Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
-|❓|`     ✏️❗`| `🧰 10 🧩` Ціна </br> `BI_Price` | Дробне число </br> `Double` |  |
-||`     ✏️❗`| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
-||`     ✏️❗`| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
-||| ◤ ПОСТАВКА |---|Група даних на формі|
-||`     ✏️❗`| Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` |  |
-||`     ✏️❗`| Термін поставки </br> `DeliveryTime` | Дата / час </br> `DateTime` |  |
-||`     ✏️❗`| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
-||`     ✏️ `| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
-||| ◤ ДОДАТКОВІ ПРИМІТКИ |---|Група даних на формі|
-||`     ✏️ `| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
+|🛠️| Властивість </br> `Property` | Тип даних </br> `DataType` | Примітки |
+|---|---|---|---|
+|| Назва процесу </br> `ProcName` | Стрічка </br> `String` | False |
+|| Статус процесу </br> `ProcStatus` | 🎲 [Статус задачі юристу](../../../Enums/ETaskToLawyerStatus.md) </br> `ETaskToLawyerStatus` | False |
+|| Об'єкт процесу </br> `ProcObject` | 📘 [Задача юристу](../../../Entities/TaskToLawyer.md) </br> `TaskToLawyer` | False |
+|| 👤 Ініціатор процесу </br> `Z10Usr_Initiator` | 📘 [Користувач](../../../Entities/User.md) </br> `User` | False |
+|| № процесу </br> `ProcNumber` | Ціле число </br> `Int64` | False |
+|| Дата процесу </br> `ProcDate` | Дата / час </br> `DateTime` | False |
+|| 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../../../Entities/User.md) </br> `User` | False |
+|| Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` | False |
+|| Контрагент </br> `Contractor` | 📘 [Контрагент](../../../Entities/Contractor.md) </br> `Contractor` | False |
+|| Установчі документи контрагента </br> `ContractorFoundationDocs` | 🗃 Колекція<📘 [Вкладення](../../../Entities/Attachment.md)> </br> `ICollection<Attachment>` | False |
+|| Предмет </br> `Subject` | Стрічка </br> `String` | False |
+|| Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` | False |
+|🚧| Тип і підстава договору </br> `ContractKindAndBasement` | [📘 Тип і підстава договору (Объект)](../../../Entities/.md) </br> `🚧` | False |
+|| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` | False |
+|| Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` | False |
+|| Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` | False |
+|| Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` | False |
+|| Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` | False |
+|| Підстава. Службова записка по тривогам </br> `Base_ServiceNoteByAllerts` | 📕 [Службова записка по тривогам](../../../Documents/AppTMCv2Doc_UrgentByAlert.md) </br> `AppTMCv2Doc_UrgentByAlert` | False |
+|🚧| Підстава. Службова записка </br> `Base_ServiceNote` | 📕 [Служебная записка (Документ)](../../../Documents/.md) </br> `🚧` | False |
+|🚧| 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` | False |
+||    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` | False |
+||    Ціна </br> `BI_Price` | Дробне число </br> `Double` | False |
+|| ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` | False |
+|| Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` | False |
+|| Умови оплати </br> `PaymentConditions` | Стрічка </br> `String` | False |
+|| Термін поставки </br> `DeliveryTime` | Дата / час </br> `DateTime` | False |
+|| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` | False |
+|| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` | False |
+|| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` | False |
