@@ -51,9 +51,14 @@
 || Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
 
 # Задачі процесу
+
 ## Z10T10 - Підготовка даних
 
-![Z10T10 - Підготовка даних](./Pictures/Forms/Z10T10__PrepareData.png)
+Всі поля форми
+![Z10T10 - Всі поля](./Pictures/Forms/Z10T10__PrepareData.png)
+
+Приклад форми
+![Z10T10 - Приклан наповнення](./Pictures/Forms/Z10T10__PrepareDataSample.png)
 
 ### Дані на формі
 
