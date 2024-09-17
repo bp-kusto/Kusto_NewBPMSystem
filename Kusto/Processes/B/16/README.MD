@@ -14,6 +14,8 @@
 **Діаграма процесу**  
 ![Діаграма процесу](./Pictures/ProcDiagram.png)
 
+Це чорнова версія процесу. В фінальній не повинно бути задачі Z20T10 - Ознайомлення (юриста), а повинен запускатись процес Погодження договору і надані дані повинні копіюватись в нього.
+
 ## Контекст процесу
 
 
@@ -77,7 +79,7 @@
 |`     ✏️❗`|| Предмет </br> `Subject` | Стрічка </br> `String` |  |
 |`     ✏️❗`|| Валюта </br> `Currency` | 🎲 [Валюта](../../../Enums/ECurrency.md) </br> `ECurrency` |  |
 |`     ✏️❗`|| 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
-|`     ✏️❗`|| Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` |  |
+|`     ✏️❗`|| Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` | Впливає на відображувані поля форми |
 |`     ✏️❗`|| Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
 |`     ✏️❗`|🚧| Тип і підстава договору </br> `ContractKindAndBasement` | 📘 [Тип і підстава договору](../../../Entities/ContractKindAndBasement.md) </br> `ContractKindAndBasement` |  |
 |`     ✏️❗`|| 🔗 Паспорт угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
@@ -98,3 +100,5 @@
 |`     ✏️❗`|| Місце поставки </br> `DeliveryPlace` | Стрічка </br> `String` |  |
 |`     ✏️ `|| Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
 |`     ✏️ `|| Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
+
+Дані на формі змінюють свою обовязковість для заповнення та видимимість, в залежності від значень тих чи інших полів.
