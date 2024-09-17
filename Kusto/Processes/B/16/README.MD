@@ -2,6 +2,8 @@
 
 # `Процес #16` ⚙️ Задача юристу
 
+Це приблизний опис процесу, виключно для його розуміння
+
 ## Короткий опис процесу
 
 Процесс призначено для надання юристу інформації про договір, що необхідно запустити на погодження, замісь того щоб повідомляти юристу відповідну інформацію по телефону, email, месенджером, тощо.
@@ -24,7 +26,6 @@
 || 👤 Ініціатор процесу </br> `Z10Usr_Initiator` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
 || 👤 Юрист </br> `Usr_Lawyer` | 📘 [Користувач](../../../Entities/User.md) </br> `User` |  |
 || Тип задачі юристу </br> `TaskToLawyerType` | 🎲 [Тип задачі юристу](../../../Enums/ETaskToLawyerType.md) </br> `ETaskToLawyerType` |  |
-|⛔| Терміновість </br> `Urgency` | Стрічка </br> `String` |  |
 || ЦФВ </br> `CFR` | 📘 [ЦФВ (Центр Фінансової Відповідальності)](../../../Entities/CFR.md) </br> `CFR` |  |
 || Департамент </br> `Department` | 📘 [Департамент](../../../Entities/Department.md) </br> `Department` |  |
 || Контрагент </br> `Contractor` | 📘 [Контрагент](../../../Entities/Contractor.md) </br> `Contractor` |  |
@@ -34,7 +35,6 @@
 || Пов'язаний зі специфікацією договір </br> `SpecificationRelatedContract` | 📕 [Договір](../../../Documents/D24032_Contract.md) </br> `D24032_Contract` |  |
 || Тип підстави </br> `BasementType` | 🎲 [Тип підстави договору](../../../Enums/EContractBasementType.md) </br> `EContractBasementType` |  |
 || Підстава. Реєстр угоди </br> `Base_DealRegister` | 📕 [Реєстр угоди](../../../Documents/KD_DealRegister.md) </br> `KD_DealRegister` |  |
-|⛔| Показники якості (д. договору по продажам) </br> `QualityIndicators` | Стрічка </br> `String` ||
 || Підстава. Заявка на ТМЦ </br> `Base_AppForTMC` | 📘 [Заявка на ТМЦ](../../../Entities/Request.md) </br> `Request` |  |
 || Підстава. Тендер </br> `Base_Tender` | 📘 [Тендер](../../../Entities/Tender.md) </br> `Tender` |  |
 || Підстава. Протокол ручного тендеру </br> `Base_TenderManual` | 📕 [Протокол ручного тендеру](../../../Documents/D24032_ManualTender.md) </br> `D24032_ManualTender` |  |
@@ -48,10 +48,10 @@
 || Базис поставки </br> `DeliveryBasis` | 🎲 [Базис поставки](../../../Enums/EDeliveryBasis.md) </br> `EDeliveryBasis` |  |
 || Примітки юристу </br> `RemarksForLawyer` | Стрічка </br> `String` |  |
 || Об'єкт процесу </br> `ProcObject` | 📘 [Задача юристу](../../../Entities/TaskToLawyer.md) </br> `TaskToLawyer` |  |
-|🚧| 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
-||    Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
-||    Кількість </br> `BI_Amount` | Дробне число </br> `Double` |  |
-||    Сума </br> `BI_Sum` | Дробне число </br> `Double` |  |
+|| 🧰 НАШІ КОМПАНІЇ </br> `BL10_OurCompanies` | 🚧 </br> `🚧` |  |
+|| ░ Наша компанія </br> `BI_OurCompany` | 📘 [Наша компанія](../../../Entities/OurCompany.md) </br> `OurCompany` |  |
+|| ░ Кількість </br> `BI_Amount` | Дробне число </br> `Double` |  |
+|| ░ Сума </br> `BI_Sum` | Дробне число </br> `Double` |  |
 
 # Задачі процесу
 ## Z10T10 - Підготовка даних
