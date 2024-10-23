@@ -8,21 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Processes_\C\24\Pictures\**" />
-    <EmbeddedResource Remove="Processes_\C\24\Pictures\**" />
-    <None Remove="Processes_\C\24\Pictures\**" />
+    <Compile Remove="Processes\Sales\22285a\Pictures\**" />
+    <EmbeddedResource Remove="Processes\Sales\22285a\Pictures\**" />
+    <None Remove="Processes\Sales\22285a\Pictures\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
-    <Folder Include="Processes_\C\23\Pictures\" />
+    <Folder Include="Processes\Bills\24176c\Pictures\" />
     <Folder Include="Processes_\C\25\Pictures\" />
-    <Folder Include="Processes_\C\26\Pictures\" />
-    <Folder Include="Processes_\C\27\Pictures\" />
-    <Folder Include="Processes_\C\28\Pictures\" />
-    <Folder Include="Processes_\C\29\Pictures\" />
-    <Folder Include="Processes_\C\30\Pictures\" />
+    <Folder Include="Processes\Bills\16133a\Pictures\" />
+    <Folder Include="Processes\Office\18260a\Pictures\" />
+    <Folder Include="Processes\Office\18031a\Pictures\" />
+    <Folder Include="Processes\Office\16320a\Pictures\" />
+    <Folder Include="Processes\IT\19051a\Pictures\" />
   </ItemGroup>
 
 </Project>
