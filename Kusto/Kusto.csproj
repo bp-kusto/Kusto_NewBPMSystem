@@ -17,8 +17,8 @@
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
     <Folder Include="Processes\Bills\24176c\Pictures\" />
-    <Folder Include="Processes_\C\25\Pictures\" />
-    <Folder Include="Processes\Bills\16133a\Pictures\" />
+    <Folder Include="Processes_\25\Pictures\" />
+    <Folder Include="Processes\Finance\16133a\Pictures\" />
     <Folder Include="Processes\Office\18260a\Pictures\" />
     <Folder Include="Processes\Office\18031a\Pictures\" />
     <Folder Include="Processes\Office\16320a\Pictures\" />
