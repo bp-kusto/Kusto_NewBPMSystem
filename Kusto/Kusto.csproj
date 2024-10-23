@@ -16,7 +16,6 @@
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Integrations\" />
-    <Folder Include="Processes_\A\01\" />
     <Folder Include="Processes_\C\23\Pictures\" />
     <Folder Include="Processes_\C\25\Pictures\" />
     <Folder Include="Processes_\C\26\Pictures\" />
